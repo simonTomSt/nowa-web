@@ -1,0 +1,56 @@
+{
+  "routes": {
+    "about_admixtures": "O domieszkach",
+    "about": "O nas",
+    "offer": "Oferta",
+    "contact": "Kontakt",
+    "tests": "Badania Laboratoryjne",
+    "admixtures": "Domieszki  Chemiczne",
+    "privacy_policy": "Polityka Prywatności"
+  },
+  "home": {
+    "meta": {
+      "title": "Strona główna"
+    },
+    "welcome": {
+      "title": "Oferujemy wysokiej jakości domieszki do betonu i usługi laboratoryjne",
+      "description": "Jesteśmy specjalistami w tworzeniu domieszek chemicznych do betonu. Nasze laboratorium budowlane przeprowadza zaawansowane badania materiałów budowlanych.."
+    },
+    "offers": {
+      "title": "Czym się zajmujemy?",
+      "description": "Specjalizujemy się w dostarczaniu produktów i usług związanych z nowoczesnymi rozwiązaniami w technologii przemysłu budowlanego, w tym domieszki chemiczne i badania w naszym laboratorium budowlanym.",
+      "action": "Sprawdź Ofertę",
+      "tiles": {
+        "tests": {
+          "title": "Badania Laboratoryjne",
+          "description": "Wykonujemy zaawansowane badania materiałów budowlanych na zlecenie w naszym specjalistycznym laboratorium budowlanym"
+        },
+        "audit": {
+          "title": "Audyt",
+          "description": "Przeprowadzamy audyty zakładów budowlanych, skupiając się na jakości domieszek i technologii produkcji."
+        },
+        "admixtures": {
+          "title": "Domieszki",
+          "description": "Opracowujemy i dostarczamy najwyższej jakości domieszki chemiczne do betonu, spełniające wymagania przemysłu."
+        },
+        "technology": {
+          "title": "Technologia produkcji",
+          "description": "Oferujemy nowoczesne technologie produkcji domieszek chemicznych, oraz wsparcie w ich projektowaniu i rozwoju."
+        },
+        "machines": {
+          "title": "Zamaszynowanie",
+          "description": "Pomagamy w zakupie i doborze maszyn do produkcji domieszek chemicznych oraz różnych materiałów budowlanych."
+        },
+        "materials": {
+          "title": "Surowce",
+          "description": "Doradzamy w wyborze surowców do produkcji betonu i domieszek chemicznych, gwarantujących najwyższą jakość."
+        }
+      }
+    },
+    "about": {
+      "title": "Kim jesteśmy?",
+      "description": "Jesteśmy doświadczonym zespołem specjalistów z ponad 10-letnim doświadczeniem w branży domieszek chemicznych do betonu i laboratoriów budowlanych. Reprezentujemy młodość, kreatywność i otwartość na innowacje. Nasze osiągnięcia w dziedzinie tworzenia innowacyjnych produktów do betonu, w tym domieszek chemicznych, oraz przeprowadzania badań w naszym laboratorium budowlanym stanowią fundament naszej działalności. Wyróżniamy się na rynku dzięki naszej pasji, pełnemu zaangażowaniu oraz nieustannemu dążeniu do doskonalenia naszych produktów i usług.",
+      "action": "Dowiedz się o nas więcej"
+    }
+  }
+}

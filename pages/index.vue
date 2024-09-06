@@ -1,0 +1,5 @@
+<template>
+  <template> <HomeWelcomeSection /> </template>
+</template>
+
+<script setup lang="ts"></script>
