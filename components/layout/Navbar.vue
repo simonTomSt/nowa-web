@@ -1,19 +1,18 @@
 <template>
   <header
-    class="bg-transparent container h-[72px] flex justify-between items-center"
+    class="bg-transparent container h-[72px] flex justify-between items-center absolute left-1/2 top-0 transform -translate-x-1/2 w-full z-[999]"
   >
-    <NuxtLink to="/">
-      <NuxtImg src="/logos/logo.png" alt="Logo" class="h-8 w-40" />
+    <NuxtLink to="/" class="block max-w-[150px] md:max-w-[160px]">
+      <NuxtImg src="/logos/logo.png" alt="Logo" class="w-full h-full block" />
     </NuxtLink>
 
-    <nav aria-label="Main Navigation">
+    <nav aria-label="Main Navigation" class="hidden md:block">
       <ul class="flex items-center justify-between w-full">
-        <li
-          v-for="link in navLinks"
-          :key="link.name"
-          class="relative group p-4"
-        >
-          <NuxtLink :to="link.to">
+        <li v-for="link in navLinks" :key="link.name">
+          <NuxtLink
+            :to="link.to"
+            class="relative group p-4 text-light-blue hover:text-white transition-colors duration-300 ease-out"
+          >
             {{ link.name }}
           </NuxtLink>
           <ul
@@ -30,8 +29,26 @@
             </li>
           </ul>
         </li>
+
+        <NuxtLink to="/ue-projects" class="hidden md:block pl-4">
+          <NuxtImg
+            height="38"
+            width="118"
+            src="/logos/ue-logo.png"
+            alt="Logo"
+          />
+        </NuxtLink>
       </ul>
     </nav>
+
+    <LayoutMobileNav :navLinks="navLinks" class="md:hidden" />
+
+    <NuxtLink
+      to="/ue-projects"
+      class="absolute right-0 bottom-[-50px] md:hidden"
+    >
+      <NuxtImg src="/logos/ue-logo.png" alt="Logo" class="h-[50] w-[150px]" />
+    </NuxtLink>
   </header>
 </template>
 

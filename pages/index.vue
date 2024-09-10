@@ -1,5 +1,3 @@
-<template>
-  <template> <HomeWelcomeSection /> </template>
-</template>
+<template><HomeWelcomeSection /> <HomeOfferSection /></template>
 
 <script setup lang="ts"></script>

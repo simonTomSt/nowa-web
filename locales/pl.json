@@ -6,7 +6,8 @@
     "contact": "Kontakt",
     "tests": "Badania Laboratoryjne",
     "admixtures": "Domieszki  Chemiczne",
-    "privacy_policy": "Polityka Prywatności"
+    "privacy_policy": "Polityka Prywatności",
+    "ur_projects": "Projekty unijne"
   },
   "home": {
     "meta": {
@@ -14,7 +15,8 @@
     },
     "welcome": {
       "title": "Oferujemy wysokiej jakości domieszki do betonu i usługi laboratoryjne",
-      "description": "Jesteśmy specjalistami w tworzeniu domieszek chemicznych do betonu. Nasze laboratorium budowlane przeprowadza zaawansowane badania materiałów budowlanych.."
+      "description": "Jesteśmy specjalistami w tworzeniu domieszek chemicznych do betonu. Nasze laboratorium budowlane przeprowadza zaawansowane badania materiałów budowlanych.",
+      "action": "Dowiedz się więcej"
     },
     "offers": {
       "title": "Czym się zajmujemy?",
