@@ -1,2 +1,26 @@
 @import "tailwindcss";
 @import "@heroui/styles";
+
+:root,
+[data-theme="light"] {
+  --accent: oklch(0.6861 0.1265 233.99);       /* #34a6dc */
+  --accent-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.3337 0.0898 262.57);    /* #1c3464 */
+  --secondary-foreground: oklch(1 0 0);
+}
+
+.dark,
+[data-theme="dark"] {
+  --accent: oklch(0.7400 0.1100 233.99);
+  --accent-foreground: oklch(0.15 0 0);
+
+  --secondary: oklch(0.4500 0.0898 262.57);
+  --secondary-foreground: oklch(1 0 0);
+}
+
+@theme inline {
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary-hover: color-mix(in oklab, var(--secondary) 90%, var(--secondary-foreground) 10%);
+}
