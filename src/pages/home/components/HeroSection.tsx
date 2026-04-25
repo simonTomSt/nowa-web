@@ -25,7 +25,7 @@ export default function HeroSection({
       {/* Inner vignette shadow */}
       <div className="absolute inset-0 shadow-[inset_0_0_120px_40px_rgba(0,0,0,0.55)]" />
 
-      <Container className="relative z-10 py-24">
+      <Container className="relative z-10 pt-36 pb-24">
         <div className="max-w-xl lg:max-w-2xl">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight tracking-tight">
             {headline}
