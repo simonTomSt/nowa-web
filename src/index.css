@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @import "@heroui/styles";
 
+@layer base {
+  html {
+    font-size: 17px;
+  }
+}
+
 :root,
 [data-theme="light"] {
   --accent: oklch(0.6861 0.1265 233.99);       /* #34a6dc */
@@ -20,6 +26,8 @@
 }
 
 @theme inline {
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary-hover: color-mix(in oklab, var(--secondary) 90%, var(--secondary-foreground) 10%);
