@@ -1,6 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
 import WhoWeAreSection from "./components/WhoWeAreSection";
+import ValuePropositionSection from "./components/ValuePropositionSection";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <HeroSection />
       <ServicesSection />
       <WhoWeAreSection />
+      <ValuePropositionSection />
     </>
   );
 }
