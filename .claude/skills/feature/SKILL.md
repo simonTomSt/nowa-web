@@ -1,7 +1,7 @@
 ---
 name: feature
 description: Manage current feature workflow - start, review, explain or complete
-argument-hint: load|start|review|explain|complete
+argument-hint: load|plan|start|review|explain|complete
 ---
 
 # Feature Workflow
@@ -15,7 +15,8 @@ Execute the requested action: $ARGUMENTS
 | Action | Description |
 |--------|-------------|
 | `load` | Load a feature spec or inline description |
-| `start` | Begin implementation |
+| `plan` | Explore repo context and produce a concrete implementation plan |
+| `start` | Begin implementation (requires approved plan) |
 | `review` | Check goals met, code quality |
 | `explain` | Document what changed and why |
 | `complete` | Commit and finish up |
