@@ -1,11 +1,10 @@
 import Layout from "./layouts/Layout";
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
     <Layout>
-      <div className="flex items-center justify-center h-64 text-gray-400">
-        Page content goes here
-      </div>
+      <HomePage />
     </Layout>
   );
 }
