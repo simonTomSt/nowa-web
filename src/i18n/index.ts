@@ -10,6 +10,7 @@ import enContact from './locales/en/contact.json';
 import enLabTests from './locales/en/labTests.json';
 import enOffer from './locales/en/offer.json';
 import enEuProjects from './locales/en/euProjects.json';
+import enServices from './locales/en/services.json';
 
 import plCommon from './locales/pl/common.json';
 import plHome from './locales/pl/home.json';
@@ -19,6 +20,7 @@ import plContact from './locales/pl/contact.json';
 import plLabTests from './locales/pl/labTests.json';
 import plOffer from './locales/pl/offer.json';
 import plEuProjects from './locales/pl/euProjects.json';
+import plServices from './locales/pl/services.json';
 
 i18n
   .use(LanguageDetector)
@@ -34,6 +36,7 @@ i18n
         labTests: enLabTests,
         offer: enOffer,
         euProjects: enEuProjects,
+        services: enServices,
       },
       pl: {
         common: plCommon,
@@ -44,6 +47,7 @@ i18n
         labTests: plLabTests,
         offer: plOffer,
         euProjects: plEuProjects,
+        services: plServices,
       },
     },
     detection: {

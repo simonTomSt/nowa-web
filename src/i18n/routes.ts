@@ -9,6 +9,7 @@ const routeSegments = {
   aboutUs:         { pl: 'o-nas',                        en: 'about-us' },
   offerLabTests:   { pl: 'oferta/badania-laboratoryjne', en: 'offer/laboratory-tests' },
   offerAdmixtures: { pl: 'oferta/domieszki',             en: 'offer/concrete-admixtures' },
+  offerServices:   { pl: 'oferta/uslugi',                en: 'offer/services' },
   contact:         { pl: 'kontakt',                      en: 'contact' },
   euProjects:      { pl: 'projekty-unijne',              en: 'eu-projects' },
 } as const;

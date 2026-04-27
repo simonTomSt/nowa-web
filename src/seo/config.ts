@@ -70,6 +70,16 @@ export const SEO_CONFIG: Record<RouteKey, SeoEntry> = {
       en: 'Contact NOWA laboratory for testing services and concrete admixtures. Get expert support and tailored solutions.',
     },
   },
+  offerServices: {
+    title: {
+      pl: 'Usługi – Badania, Audyty i Technologia Produkcji | NOWA',
+      en: 'Services – Laboratory, Audits & Production Technology | NOWA',
+    },
+    description: {
+      pl: 'Kompleksowe usługi dla budownictwa i przemysłu: badania laboratoryjne, domieszki chemiczne, audyty zakładów, technologia produkcji, zamaszynowanie i dobór surowców.',
+      en: 'Comprehensive services for construction and industry: laboratory testing, chemical admixtures, plant audits, production technology, machinery consulting and raw materials sourcing.',
+    },
+  },
   euProjects: {
     title: {
       pl: 'Projekty Unijne i Innowacje w Budownictwie | NOWA',

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Dropdown, Label, Surface } from "@heroui/react";
-import { Menu, X, ChevronDown, FlaskConical, Blocks } from "lucide-react";
+import { Menu, X, ChevronDown, FlaskConical, Blocks, Wrench } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import nowaFullLogo from "../../assets/nowa_full_logo.svg";
 import nowaFullLogoDark from "../../assets/nowa_full_logo_dark.svg";
@@ -46,6 +46,12 @@ export default function Header({ lang }: HeaderProps) {
       href: getRoute("offerAdmixtures", lang),
       icon: Blocks,
       description: t("nav.offerAdmixturesDesc"),
+    },
+    {
+      label: t("nav.offerServices"),
+      href: getRoute("offerServices", lang),
+      icon: Wrench,
+      description: t("nav.offerServicesDesc"),
     },
   ];
 

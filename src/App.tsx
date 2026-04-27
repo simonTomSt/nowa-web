@@ -9,6 +9,7 @@ import LabTestsPage from "./pages/lab-tests/LabTestsPage";
 import OfferAdmixturesPage from "./pages/offer-admixtures/OfferAdmixturesPage";
 import ContactPage from "./pages/contact/ContactPage";
 import EUProjectsPage from "./pages/eu-projects/EUProjectsPage";
+import OfferServicesPage from "./pages/offer-services/OfferServicesPage";
 import {
   SUPPORTED_LANGS,
   DEFAULT_LANG,
@@ -73,6 +74,7 @@ const router = createBrowserRouter([
       { path: "oferta", element: <Navigate to={getOfferLandingRoute("pl")} replace /> },
       { path: getRouteSegment("offerLabTests", "pl"), element: <LabTestsPage /> },
       { path: getRouteSegment("offerAdmixtures", "pl"), element: <OfferAdmixturesPage /> },
+      { path: getRouteSegment("offerServices", "pl"), element: <OfferServicesPage /> },
       // English
       { path: getRouteSegment("aboutUs", "en"), element: <AboutUsPage /> },
       { path: getRouteSegment("aboutAdmixtures", "en"), element: <AboutAdmixturesPage /> },
@@ -81,6 +83,7 @@ const router = createBrowserRouter([
       { path: "offer", element: <Navigate to={getOfferLandingRoute("en")} replace /> },
       { path: getRouteSegment("offerLabTests", "en"), element: <LabTestsPage /> },
       { path: getRouteSegment("offerAdmixtures", "en"), element: <OfferAdmixturesPage /> },
+      { path: getRouteSegment("offerServices", "en"), element: <OfferServicesPage /> },
     ],
   },
   { path: "*", element: <LangRedirect /> },

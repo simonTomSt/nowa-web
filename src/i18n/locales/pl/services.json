@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Nasze Usługi",
+    "description": "Kompleksowe rozwiązania dla budownictwa i produkcji przemysłowej"
+  },
+  "intro": {
+    "text": "Oferujemy kompleksowe usługi dla budownictwa i produkcji przemysłowej, w tym badania laboratoryjne, domieszki chemiczne, audyty, technologie produkcji, doradztwo w zakresie zamaszynowania oraz dobór surowców."
+  },
+  "nav": {
+    "ariaLabel": "Sekcje strony",
+    "labTests": "Badania Laboratoryjne",
+    "admixtures": "Domieszki Chemiczne",
+    "audit": "Audyt",
+    "production": "Technologia Produkcji",
+    "machinery": "Zamaszynowanie",
+    "rawMaterials": "Surowce"
+  },
+  "labTests": {
+    "title": "Badania Laboratoryjne",
+    "description": "Oferujemy zaawansowane badania laboratoryjne betonu i materiałów budowlanych, zapewniające jakość, zgodność z normami i wydajność. Nasze akredytowane laboratorium przeprowadza precyzyjne analizy, które pomagają optymalizować procesy produkcyjne i spełniać standardy branżowe.",
+    "cta": {
+      "label": "Zobacz pełną ofertę laboratorium",
+      "ariaLabel": "Zobacz pełną ofertę badań laboratoryjnych"
+    }
+  },
+  "admixtures": {
+    "title": "Domieszki Chemiczne do Betonu",
+    "description": "Produkujemy i dostarczamy wysokowydajne domieszki chemiczne do betonu komórkowego i betonu towarowego. Nasze produkty poprawiają wytrzymałość, odporność na mróz, urabialność oraz redukują zużycie wody i spoiw — dając Twojej produkcji wymierną przewagę konkurencyjną.",
+    "cta": {
+      "label": "Zobacz ofertę domieszek",
+      "ariaLabel": "Zobacz pełną ofertę domieszek chemicznych"
+    }
+  },
+  "audit": {
+    "title": "Audyty Zakładów Przemysłowych",
+    "description": "Nasza firma specjalizuje się w kompleksowych audytach zakładów przemysłowych i produkcyjnych. Działamy na rzecz naszych klientów, oferując profesjonalne usługi, które pomagają w analizie, ocenie i doskonaleniu działań przemysłowych oraz produkcyjnych zakładów. Nasz zespół doświadczonych specjalistów przeprowadza dokładne badania, identyfikując potencjalne obszary usprawnień i minimalizacji kosztów, co może przyczynić się do zwiększenia wydajności i rentowności działalności zakładu. Dzięki naszym usługom audytowym nasi klienci mogą skoncentrować się na rozwoju swojego biznesu, mając pewność, że ich zakłady działają efektywnie i zgodnie z obowiązującymi standardami oraz przepisami.",
+    "cta": null
+  },
+  "production": {
+    "title": "Technologia Produkcji",
+    "description": "Nasza firma jest zorientowana na innowacje i pracuje nad dostarczeniem klientom zaawansowanych rozwiązań technologicznych, które mogą zrewolucjonizować ich procesy produkcyjne.\n\nNasza technologia produkcji jest efektem wieloletnich badań i rozwoju, dzięki czemu jesteśmy w stanie zapewnić naszym klientom wydajniejsze i bardziej zrównoważone rozwiązania. Nasz zespół ekspertów jest gotów pomóc klientom w dostosowaniu tej technologii do ich indywidualnych potrzeb, a także w procesie projektowania nowych rozwiązań produkcyjnych.\n\nNaszym celem jest nie tylko dostarczanie narzędzi i technologii, ale także pełne wsparcie w procesie wdrażania, szkolenia personelu i monitorowania wyników. Dzięki temu nasi klienci mogą osiągnąć znaczący postęp w swojej produkcji, zyskując konkurencyjną przewagę i pozostając na czele działań innowacyjnych w swojej branży.",
+    "cta": null
+  },
+  "machinery": {
+    "title": "Zamaszynowanie",
+    "description": "Nasza firma doskonale rozumie, że inwestycje w nowoczesne maszyny i urządzenia są kluczowe dla sukcesu przedsiębiorstw przemysłowych. Dlatego też staramy się zapewnić naszym klientom pełne wsparcie w procesie zakupu i wdrożenia nowego sprzętu.\n\nNasi eksperci posiadają szeroką wiedzę na temat rynku maszyn przemysłowych oraz najnowszych trendów w dziedzinie automatyki i technologii produkcyjnych. Dzięki temu jesteśmy w stanie doradzić naszym klientom w wyborze odpowiednich rozwiązań, które najlepiej odpowiadają ich potrzebom i oczekiwaniom.\n\nNasza pomoc w zakupie zamaszynowania obejmuje także negocjacje cenowe, wybór dostawców, oraz monitorowanie procesu dostawy i instalacji. Chcemy zapewnić naszym klientom spokój i pewność, że ich inwestycje będą udane i przyniosą oczekiwane korzyści. Dzięki naszemu wsparciu, nasi klienci mogą efektywnie modernizować swoje zakłady, poprawiając konkurencyjność i efektywność produkcji.",
+    "cta": null
+  },
+  "rawMaterials": {
+    "title": "Surowce",
+    "description": "Nasza firma nie tylko oferuje usługi audytów zakładów, nowoczesne technologie produkcji i wsparcie w zakupie zamaszynowania, ale także pomaga w doborze odpowiednich surowców. Rozumiemy, że jakość i dostępność surowców są kluczowymi czynnikami wpływającymi na jakość i efektywność produkcji przemysłowej.\n\nNasi eksperci ds. surowców posiadają głęboką wiedzę na temat rynku surowców i materiałów, a także rozumieją unikalne potrzeby każdego klienta. Wspólnie z naszymi klientami analizujemy ich procesy produkcyjne i wymagania, aby zidentyfikować najlepsze surowce dostępne na rynku, które spełnią ich oczekiwania pod względem jakości, trwałości i dostępności.\n\nNasza pomoc w doborze surowców obejmuje również negocjacje z dostawcami, analizę kosztów oraz monitorowanie jakości dostarczanych materiałów. Dzięki temu nasi klienci mogą być pewni, że wybierają surowce, które zoptymalizują procesy produkcyjne i przyczynią się do osiągnięcia doskonałych rezultatów. Nasza firma jest gotowa wesprzeć w doborze surowców, aby zapewnić naszym klientom konkurencyjność i sukces w ich branży.",
+    "cta": null
+  },
+  "cta": {
+    "heading": "Gotowy na rozwój swojej produkcji?",
+    "contactUs": "Skontaktuj się z nami"
+  }
+}

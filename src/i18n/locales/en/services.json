@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Our Services",
+    "description": "Comprehensive solutions for construction and industrial production"
+  },
+  "intro": {
+    "text": "We provide comprehensive services for construction and industrial production, including laboratory testing, chemical admixtures, audits, production technologies, machinery consulting and raw materials selection."
+  },
+  "nav": {
+    "ariaLabel": "Page sections",
+    "labTests": "Laboratory Tests",
+    "admixtures": "Chemical Admixtures",
+    "audit": "Audit",
+    "production": "Production Technology",
+    "machinery": "Machinery",
+    "rawMaterials": "Raw Materials"
+  },
+  "labTests": {
+    "title": "Laboratory Testing Services",
+    "description": "We offer advanced laboratory testing of concrete and building materials to ensure quality, compliance and performance. Our accredited laboratory provides precise analyses that help optimize production processes and meet industry standards.",
+    "cta": {
+      "label": "View full lab offer",
+      "ariaLabel": "View the full laboratory testing offer"
+    }
+  },
+  "admixtures": {
+    "title": "Chemical Admixtures for Concrete",
+    "description": "We produce and supply high-performance chemical admixtures for aerated concrete and ready-mix concrete. Our products improve strength, frost resistance, workability and reduce water and binder consumption — giving your production a measurable competitive edge.",
+    "cta": {
+      "label": "View admixtures offer",
+      "ariaLabel": "View the full chemical admixtures product offer"
+    }
+  },
+  "audit": {
+    "title": "Industrial Audit Services",
+    "description": "Our company specialises in comprehensive audits of industrial and production plants. We act on behalf of our clients, offering professional services that help in the analysis, assessment and improvement of industrial and production operations. Our team of experienced specialists conducts thorough investigations, identifying potential areas for improvement and cost minimisation, which can contribute to increasing the efficiency and profitability of the plant. Thanks to our audit services, our clients can focus on developing their business, confident that their plants operate effectively and in compliance with applicable standards and regulations.",
+    "cta": null
+  },
+  "production": {
+    "title": "Production Technology Solutions",
+    "description": "Our company is innovation-driven and works to deliver advanced technological solutions to clients that can revolutionise their production processes.\n\nOur production technology is the result of many years of research and development, allowing us to provide our clients with more efficient and sustainable solutions. Our team of experts is ready to help clients adapt this technology to their individual needs, as well as in the process of designing new production solutions.\n\nOur goal is not only to provide tools and technology, but also full support in the implementation process, staff training and performance monitoring. As a result, our clients can achieve significant progress in their production, gaining a competitive advantage and staying at the forefront of innovative activities in their industry.",
+    "cta": null
+  },
+  "machinery": {
+    "title": "Machinery & Equipment Consulting",
+    "description": "Our company fully understands that investment in modern machinery and equipment is crucial to the success of industrial enterprises. That is why we strive to provide our clients with full support in the process of purchasing and implementing new equipment.\n\nOur experts have extensive knowledge of the industrial machinery market and the latest trends in automation and production technologies. As a result, we are able to advise our clients on the selection of appropriate solutions that best match their needs and expectations.\n\nOur assistance in machinery procurement also includes price negotiations, supplier selection, and monitoring of the delivery and installation process. We want to ensure our clients peace of mind and confidence that their investments will be successful and deliver the expected benefits. Thanks to our support, our clients can effectively modernise their plants, improving competitiveness and production efficiency.",
+    "cta": null
+  },
+  "rawMaterials": {
+    "title": "Raw Materials Selection & Sourcing",
+    "description": "Our company not only offers plant audit services, modern production technologies and support in machinery procurement, but also assists in the selection of appropriate raw materials. We understand that the quality and availability of raw materials are key factors affecting the quality and efficiency of industrial production.\n\nOur raw materials experts have deep knowledge of the raw materials and materials market, and understand the unique needs of each client. Together with our clients, we analyse their production processes and requirements to identify the best raw materials available on the market that will meet their expectations in terms of quality, durability and availability.\n\nOur assistance in raw materials selection also includes supplier negotiations, cost analysis and monitoring of the quality of delivered materials. As a result, our clients can be confident that they are choosing raw materials that will optimise production processes and contribute to achieving excellent results. Our company is ready to support in the selection of raw materials to ensure our clients competitiveness and success in their industry.",
+    "cta": null
+  },
+  "cta": {
+    "heading": "Ready to take your production to the next level?",
+    "contactUs": "Contact us"
+  }
+}
