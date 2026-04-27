@@ -138,7 +138,7 @@ export default function Header({ lang }: HeaderProps) {
                 <a href={getRoute("euProjects", lang)} aria-label={t("euProjectsAriaLabel")}>
                   <img
                     src={ueLogoFlag}
-                    alt="EU"
+                    alt=""
                     className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </a>
@@ -217,6 +217,8 @@ export default function Header({ lang }: HeaderProps) {
       {/* ── Compact sticky header: slides in after scrolling past hero ── */}
       <header
         aria-hidden={!compact}
+        // @ts-expect-error inert is valid HTML but not yet in React's typings
+        inert={!compact ? "" : undefined}
         className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-out ${
           compact ? "translate-y-0" : "-translate-y-full"
         }`}

@@ -5,7 +5,8 @@
   },
   "intro": {
     "text": "Domieszki chemiczne oferują liczne korzyści, takie jak poprawa właściwości betonu, zwiększenie jego wytrzymałości i odporności na mróz oraz redukcja wymaganej ilości wody. Nasza firma od wielu lat produkuje te domieszki, dostarczając je do branży budowlanej w celu ulepszenia betonu komórkowego, betonu towarowego i zapraw.",
-    "learnMore": "Dowiedz się więcej"
+    "learnMore": "Dowiedz się więcej",
+    "learnMoreAriaLabel": "Dowiedz się więcej o domieszkach do betonu komórkowego"
   },
   "cta": {
     "heading": "Nie widzisz potrzebnej Ci domieszki?",

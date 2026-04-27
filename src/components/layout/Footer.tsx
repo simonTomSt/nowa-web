@@ -41,7 +41,8 @@ export default function Footer({ lang }: FooterProps) {
     { labelKey: "footer.links.aboutUs", href: getRoute("aboutUs") },
     { labelKey: "footer.links.contact", href: getRoute("contact") },
     { labelKey: "footer.links.euProjects", href: getRoute("euProjects") },
-    { labelKey: "footer.links.privacyPolicy", href: "#" },
+    // TODO: add href when privacy policy page is created
+    // { labelKey: "footer.links.privacyPolicy", href: "/privacy-policy" },
   ];
 
   return (

@@ -5,7 +5,8 @@
   },
   "intro": {
     "text": "Chemical admixtures offer numerous advantages, such as improving the properties of concrete, increasing its strength and frost resistance, and reducing the amount of water required. Our company has been producing these admixtures for many years, supplying them to the construction industry to improve aerated concrete, ready-mix concrete and mortars.",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "learnMoreAriaLabel": "Learn more about aerated concrete admixtures"
   },
   "cta": {
     "heading": "Don't you see the admixture which you need?",

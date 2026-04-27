@@ -1,5 +1,6 @@
 import { Handshake, Shield, Droplets, Microscope, BadgeCheck, ThumbsUp } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useLocale } from "../../../hooks/useLocale";
 import SplitFeatureSection from "./SplitFeatureSection";
 import labImage from "../../../assets/lab.jpg";
 import measuringImage from "../../../assets/measuring.jpeg";
@@ -8,6 +9,7 @@ import bgBlobGradient from "../../../assets/bg-blob-gradient.svg";
 
 export default function ValuePropositionSection() {
   const { t } = useTranslation("home");
+  const { getRoute } = useLocale();
 
   return (
     <section className="bg-white">
@@ -20,7 +22,7 @@ export default function ValuePropositionSection() {
           { icon: Droplets, label: t("valueProposition.admixtures.feature2") },
         ]}
         ctaLabel={t("valueProposition.admixtures.cta")}
-        ctaHref="#"
+        ctaHref={getRoute("offerAdmixtures")}
         image={labImage}
         imageAlt={t("valueProposition.admixtures.imageAlt")}
         card={{
@@ -40,7 +42,7 @@ export default function ValuePropositionSection() {
           { icon: ThumbsUp, label: t("valueProposition.labTests.feature2") },
         ]}
         ctaLabel={t("valueProposition.labTests.cta")}
-        ctaHref="#"
+        ctaHref={getRoute("offerLabTests")}
         image={measuringImage}
         imageAlt={t("valueProposition.labTests.imageAlt")}
         card={{

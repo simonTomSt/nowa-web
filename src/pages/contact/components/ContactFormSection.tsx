@@ -51,10 +51,10 @@ export default function ContactFormSection() {
             </div>
 
             <div className="rounded-xl border border-slate-100 bg-slate-50 p-5">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">
+              <p id="gdpr-label" className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">
                 {t("form.gdprLabel")} <span className="text-accent">*</span>
               </p>
-              <Checkbox isSelected={gdpr} onChange={setGdpr} isRequired>
+              <Checkbox isSelected={gdpr} onChange={setGdpr} isRequired aria-labelledby="gdpr-label">
                 <Checkbox.Control>
                   <Checkbox.Indicator />
                 </Checkbox.Control>

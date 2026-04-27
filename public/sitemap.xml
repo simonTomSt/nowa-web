@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Admixtures -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl/o-domieszkach</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/o-domieszkach"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/about-admixtures"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en/about-admixtures</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/o-domieszkach"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/about-admixtures"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl/o-nas</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/o-nas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/about-us"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/o-nas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/about-us"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Lab Tests -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl/oferta/badania-laboratoryjne</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/oferta/badania-laboratoryjne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/offer/laboratory-tests"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en/offer/laboratory-tests</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/oferta/badania-laboratoryjne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/offer/laboratory-tests"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Offer Admixtures -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl/oferta/domieszki</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/oferta/domieszki"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/offer/concrete-admixtures"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en/offer/concrete-admixtures</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/oferta/domieszki"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/offer/concrete-admixtures"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/contact"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/contact"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- EU Projects -->
+  <url>
+    <loc>https://nowa.wielun.pl/pl/projekty-unijne</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/projekty-unijne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/eu-projects"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nowa.wielun.pl/en/eu-projects</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nowa.wielun.pl/pl/projekty-unijne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowa.wielun.pl/en/eu-projects"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

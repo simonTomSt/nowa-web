@@ -20,6 +20,7 @@ export default function AdmixturesIntroSection() {
           <div className="mt-8">
             <a
               href="#aerated"
+              aria-label={t("intro.learnMoreAriaLabel", t("intro.learnMore"))}
               className="inline-flex items-center justify-center px-6 py-2.5 rounded-xl border border-accent text-accent font-medium text-sm hover:bg-accent hover:text-white transition-colors duration-150"
             >
               {t("intro.learnMore")}

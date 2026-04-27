@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Header, Footer, BrandingStrip } from "../components/layout";
 import { getAlternateRoutes, type Lang } from "../i18n/routes";
+import { SITE_URL } from "../seo/config";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -17,7 +18,7 @@ export default function Layout({ children, lang, currentPath }: LayoutProps) {
       const link = document.createElement("link");
       link.rel = "alternate";
       link.setAttribute("hreflang", altLang);
-      link.href = href;
+      link.href = `${SITE_URL}${href}`;
       document.head.appendChild(link);
     });
   }, [alternates]);
