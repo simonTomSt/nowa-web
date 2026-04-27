@@ -26,6 +26,7 @@ const footerNavLinks = [
   { label: "Offer", href: "/offer" },
   { label: "About us", href: "/about-us" },
   { label: "Contact", href: "/contact" },
+  { label: "Projekty UE", href: "/eu-projects" },
   { label: "Privacy policy", href: "/privacy-policy" },
 ];
 
@@ -126,6 +127,7 @@ export default function Footer() {
 
         </div>
       </Container>
+
     </footer>
   );
 }

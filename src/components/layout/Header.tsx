@@ -131,11 +131,13 @@ export default function Header() {
               </nav>
 
               <div className="hidden md:flex items-center gap-4">
-                <img
-                  src={ueLogoFlag}
-                  alt="EU"
-                  className="h-8 w-auto opacity-80"
-                />
+                <a href="/eu-projects" aria-label="Projekty UE">
+                  <img
+                    src={ueLogoFlag}
+                    alt="EU"
+                    className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  />
+                </a>
               </div>
 
               <button
@@ -194,11 +196,13 @@ export default function Header() {
                   </div>
                 )}
                 <div className="mt-1 pt-3 border-t border-black/5 px-2">
-                  <img
-                    src={ueLogoFlag}
-                    alt="EU"
-                    className="h-7 w-auto opacity-80"
-                  />
+                  <a href="/eu-projects" aria-label="Projekty UE">
+                    <img
+                      src={ueLogoFlag}
+                      alt="EU"
+                      className="h-7 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                    />
+                  </a>
                 </div>
               </Surface>
             )}
