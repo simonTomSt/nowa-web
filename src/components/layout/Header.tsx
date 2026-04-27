@@ -3,6 +3,7 @@ import { Dropdown, Label, Surface } from "@heroui/react";
 import { Menu, X, ChevronDown, FlaskConical, Blocks } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import nowaFullLogo from "../../assets/nowa_full_logo.svg";
+import nowaFullLogoDark from "../../assets/nowa_full_logo_dark.svg";
 import ueLogoFlag from "../../assets/ue-logo-flag.jpeg";
 import Container from "./Container";
 import { getRoute, type Lang } from "../../i18n/routes";
@@ -71,7 +72,7 @@ export default function Header({ lang }: HeaderProps) {
             <div className="flex items-center justify-between h-20">
               <a href={getRoute("home", lang)} className="flex-shrink-0 group">
                 <img
-                  src={nowaFullLogo}
+                  src={scrolled ? nowaFullLogoDark : nowaFullLogo}
                   alt="Nowa"
                   className="h-12 w-auto transition-all duration-200 group-hover:opacity-75 group-hover:scale-[0.98]"
                 />
@@ -228,7 +229,7 @@ export default function Header({ lang }: HeaderProps) {
             <div className="flex items-center justify-between h-14">
               <a href={getRoute("home", lang)} className="flex-shrink-0 group">
                 <img
-                  src={nowaFullLogo}
+                  src={nowaFullLogoDark}
                   alt="Nowa"
                   className="h-8 w-auto transition-all duration-200 group-hover:opacity-75"
                 />
