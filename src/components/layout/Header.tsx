@@ -1,6 +1,13 @@
 import { useState, useEffect } from "react";
-import { Dropdown, Label, Surface } from "@heroui/react";
-import { Menu, X, ChevronDown, FlaskConical, Blocks, Wrench } from "lucide-react";
+import { Button, Dropdown, Label, Surface } from "@heroui/react";
+import {
+  Menu,
+  X,
+  ChevronDown,
+  FlaskConical,
+  Blocks,
+  Wrench,
+} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import nowaFullLogo from "../../assets/nowa_full_logo.svg";
 import nowaFullLogoDark from "../../assets/nowa_full_logo_dark.svg";
@@ -29,7 +36,10 @@ export default function Header({ lang }: HeaderProps) {
   }, []);
 
   const navLinks = [
-    { label: t("nav.aboutAdmixtures"), href: getRoute("aboutAdmixtures", lang) },
+    {
+      label: t("nav.aboutAdmixtures"),
+      href: getRoute("aboutAdmixtures", lang),
+    },
     { label: t("nav.aboutUs"), href: getRoute("aboutUs", lang) },
     { label: t("nav.contact"), href: getRoute("contact", lang) },
   ];
@@ -55,13 +65,28 @@ export default function Header({ lang }: HeaderProps) {
     },
   ];
 
-  const linkClass = scrolled
-    ? "relative px-4 py-2 text-base font-medium text-gray-600 hover:text-accent rounded-xl hover:bg-white transition-all duration-150"
-    : "relative px-4 py-2 text-base font-medium text-white/90 hover:text-white rounded-xl hover:bg-white/15 transition-all duration-150";
+  const pathname = window.location.pathname;
+  const isOfferActive = offerLinks.some((l) => l.href === pathname);
+
+  const getLinkClass = (href: string) => {
+    const isActive = href === pathname;
+    if (scrolled) {
+      return `relative px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 ${
+        isActive
+          ? "text-accent bg-white shadow-sm"
+          : "text-gray-600 hover:text-accent hover:bg-white"
+      }`;
+    }
+    return `relative px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 ${
+      isActive
+        ? "text-white bg-white/20 shadow-sm"
+        : "text-white/90 hover:text-white hover:bg-white/15"
+    }`;
+  };
 
   const offerBtnClass = scrolled
-    ? "flex items-center gap-1.5 px-4 py-2 text-base font-medium text-gray-600 hover:text-accent rounded-xl hover:bg-white transition-all duration-150 group/offer"
-    : "flex items-center gap-1.5 px-4 py-2 text-base font-medium text-white/90 hover:text-white rounded-xl hover:bg-white/15 transition-all duration-150 group/offer";
+    ? `flex items-center gap-1.5 px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 group/offer ${isOfferActive ? "text-accent bg-white shadow-sm" : "text-gray-600 hover:text-accent hover:bg-white"}`
+    : `flex items-center gap-1.5 px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 group/offer ${isOfferActive ? "text-white bg-white/20 shadow-sm" : "text-white/90 hover:text-white hover:bg-white/15"}`;
 
   return (
     <>
@@ -93,21 +118,19 @@ export default function Header({ lang }: HeaderProps) {
                   }`}
                 >
                   {navLinks.map((link) => (
-                    <a key={link.href} href={link.href} className={linkClass}>
+                    <a key={link.href} href={link.href} className={getLinkClass(link.href)}>
                       {link.label}
                     </a>
                   ))}
 
                   <Dropdown>
-                    <Dropdown.Trigger>
-                      <button className={offerBtnClass}>
-                        {t("nav.offer")}
-                        <ChevronDown
-                          size={14}
-                          className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
-                        />
-                      </button>
-                    </Dropdown.Trigger>
+                    <Button variant="none" className={offerBtnClass}>
+                      {t("nav.offer")}
+                      <ChevronDown
+                        size={14}
+                        className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
+                      />
+                    </Button>
                     <Dropdown.Popover className="min-w-64">
                       <Dropdown.Menu className="p-1">
                         {offerLinks.map((link) => (
@@ -142,7 +165,10 @@ export default function Header({ lang }: HeaderProps) {
               </nav>
 
               <div className="hidden md:flex items-center gap-4">
-                <a href={getRoute("euProjects", lang)} aria-label={t("euProjectsAriaLabel")}>
+                <a
+                  href={getRoute("euProjects", lang)}
+                  aria-label={t("euProjectsAriaLabel")}
+                >
                   <img
                     src={ueLogoFlag}
                     alt=""
@@ -169,18 +195,29 @@ export default function Header({ lang }: HeaderProps) {
                 variant="secondary"
                 className="md:hidden rounded-2xl mx-1 mb-3 p-3 border border-black/5 shadow-lg flex flex-col gap-1"
               >
-                {navLinks.map((link) => (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    className="px-4 py-3 text-base font-medium text-gray-700 hover:text-accent hover:bg-white rounded-xl transition-all"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {link.label}
-                  </a>
-                ))}
+                {navLinks.map((link) => {
+                  const isActive = link.href === pathname;
+                  return (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      className={`px-4 py-3 text-base font-medium rounded-xl transition-all ${
+                        isActive
+                          ? "text-accent bg-white shadow-sm"
+                          : "text-gray-700 hover:text-accent hover:bg-white"
+                      }`}
+                      onClick={() => setMobileOpen(false)}
+                    >
+                      {link.label}
+                    </a>
+                  );
+                })}
                 <button
-                  className="w-full px-4 py-3 text-base font-medium text-gray-700 hover:text-accent hover:bg-white rounded-xl transition-all text-left flex items-center justify-between"
+                  className={`w-full px-4 py-3 text-base font-medium rounded-xl transition-all text-left flex items-center justify-between ${
+                    isOfferActive
+                      ? "text-accent bg-white shadow-sm"
+                      : "text-gray-700 hover:text-accent hover:bg-white"
+                  }`}
                   onClick={() => setMobileOfferOpen((v) => !v)}
                 >
                   {t("nav.offer")}
@@ -207,7 +244,10 @@ export default function Header({ lang }: HeaderProps) {
                   </div>
                 )}
                 <div className="mt-1 pt-3 border-t border-black/5 px-2">
-                  <a href={getRoute("euProjects", lang)} aria-label={t("euProjectsAriaLabel")}>
+                  <a
+                    href={getRoute("euProjects", lang)}
+                    aria-label={t("euProjectsAriaLabel")}
+                  >
                     <img
                       src={ueLogoFlag}
                       alt="EU"
@@ -225,7 +265,7 @@ export default function Header({ lang }: HeaderProps) {
       <header
         aria-hidden={!compact}
         // @ts-expect-error inert is valid HTML but not yet in React's typings
-        inert={!compact ? "" : undefined}
+        inert={!compact ? true : undefined}
         className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-out ${
           compact ? "translate-y-0" : "-translate-y-full"
         }`}
@@ -242,25 +282,37 @@ export default function Header({ lang }: HeaderProps) {
               </a>
 
               <nav className="hidden md:flex items-center gap-1">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    className="px-3.5 py-1.5 text-sm font-medium text-gray-600 hover:text-accent rounded-lg hover:bg-gray-100 transition-all duration-150"
-                  >
-                    {link.label}
-                  </a>
-                ))}
+                {navLinks.map((link) => {
+                  const isActive = link.href === pathname;
+                  return (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      className={`px-3.5 py-1.5 text-sm font-medium rounded-lg transition-all duration-150 ${
+                        isActive
+                          ? "text-accent bg-gray-100 shadow-sm"
+                          : "text-gray-600 hover:text-accent hover:bg-gray-100"
+                      }`}
+                    >
+                      {link.label}
+                    </a>
+                  );
+                })}
                 <Dropdown>
-                  <Dropdown.Trigger>
-                    <button className="flex items-center gap-1 px-3.5 py-1.5 text-sm font-medium text-gray-600 hover:text-accent rounded-lg hover:bg-gray-100 transition-all duration-150 group/offer">
-                      {t("nav.offer")}
-                      <ChevronDown
-                        size={12}
-                        className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
-                      />
-                    </button>
-                  </Dropdown.Trigger>
+                  <Button
+                    variant="plain"
+                    className={`flex items-center gap-1 px-3.5 py-1.5 text-sm font-medium rounded-lg transition-all duration-150 group/offer ${
+                      isOfferActive
+                        ? "text-accent bg-gray-100 shadow-sm"
+                        : "text-gray-600 hover:text-accent hover:bg-gray-100"
+                    }`}
+                  >
+                    {t("nav.offer")}
+                    <ChevronDown
+                      size={12}
+                      className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
+                    />
+                  </Button>
                   <Dropdown.Popover className="min-w-64">
                     <Dropdown.Menu className="p-1">
                       {offerLinks.map((link) => (

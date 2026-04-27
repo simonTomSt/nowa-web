@@ -1,4 +1,4 @@
-import { Dropdown } from "@heroui/react";
+import { Button, Dropdown } from "@heroui/react";
 import { Phone, Mail, Globe, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import nowaLogoWhite from "../../assets/nowa_logo_white.svg";
@@ -78,12 +78,10 @@ export default function Footer({ lang }: FooterProps) {
                   <Globe size={15} />
                 </span>
                 <Dropdown>
-                  <Dropdown.Trigger>
-                    <button className="flex items-center gap-2 rounded-md border border-white/10 bg-white/10 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:border-white/20 hover:bg-white/15">
-                      <span>{t(`footer.languages.${lang}`)}</span>
-                      <ChevronDown size={14} className="text-white/50" />
-                    </button>
-                  </Dropdown.Trigger>
+                  <Button variant="plain" className="flex items-center gap-2 rounded-md border border-white/10 bg-white/10 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:border-white/20 hover:bg-white/15">
+                    <span>{t(`footer.languages.${lang}`)}</span>
+                    <ChevronDown size={14} className="text-white/50" />
+                  </Button>
                   <Dropdown.Popover className="min-w-44">
                     <Dropdown.Menu
                       aria-label={t("footer.language")}
