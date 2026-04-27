@@ -1,4 +1,5 @@
-import { Phone, Mail, Globe } from "lucide-react";
+import { Dropdown } from "@heroui/react";
+import { Phone, Mail, Globe, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import nowaLogoWhite from "../../assets/nowa_logo_white.svg";
 import Container from "./Container";
@@ -32,6 +33,7 @@ export default function Footer({ lang }: FooterProps) {
   const { t } = useTranslation("common");
   const { getRoute, switchLang } = useLocale();
   const year = new Date().getFullYear();
+  const languages: Lang[] = ["pl", "en"];
 
   const footerNavLinks = [
     { labelKey: "footer.links.aboutAdmixtures", href: getRoute("aboutAdmixtures") },
@@ -74,17 +76,35 @@ export default function Footer({ lang }: FooterProps) {
                 <span className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center shrink-0">
                   <Globe size={15} />
                 </span>
-                <div className="relative">
-                  <select
-                    value={lang}
-                    onChange={(e) => switchLang(e.target.value as Lang)}
-                    className="appearance-none bg-white/10 hover:bg-white/15 text-white text-sm font-medium rounded-md pl-3 pr-7 py-1.5 cursor-pointer border border-white/10 hover:border-white/20 transition-colors outline-none focus:ring-2 focus:ring-accent/50"
-                  >
-                    <option value="pl" className="bg-secondary text-white">{t("footer.languages.pl")}</option>
-                    <option value="en" className="bg-secondary text-white">{t("footer.languages.en")}</option>
-                  </select>
-                  <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-white/50 text-xs">▾</span>
-                </div>
+                <Dropdown>
+                  <Dropdown.Trigger>
+                    <button className="flex items-center gap-2 rounded-md border border-white/10 bg-white/10 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:border-white/20 hover:bg-white/15">
+                      <span>{t(`footer.languages.${lang}`)}</span>
+                      <ChevronDown size={14} className="text-white/50" />
+                    </button>
+                  </Dropdown.Trigger>
+                  <Dropdown.Popover className="min-w-44">
+                    <Dropdown.Menu
+                      aria-label={t("footer.language")}
+                      selectedKeys={[lang]}
+                      selectionMode="single"
+                      disallowEmptySelection
+                      onAction={(key) => switchLang(key as Lang)}
+                      className="p-1"
+                    >
+                      {languages.map((language) => (
+                        <Dropdown.Item
+                          key={language}
+                          id={language}
+                          textValue={t(`footer.languages.${language}`)}
+                          className="rounded-lg"
+                        >
+                          {t(`footer.languages.${language}`)}
+                        </Dropdown.Item>
+                      ))}
+                    </Dropdown.Menu>
+                  </Dropdown.Popover>
+                </Dropdown>
               </div>
             </div>
 
