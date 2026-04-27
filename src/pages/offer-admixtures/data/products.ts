@@ -1,0 +1,254 @@
+export interface Product {
+  name: string;
+  description?: string;
+  features?: string[];
+}
+
+export interface ProductCategory {
+  id: string;
+  title: string;
+  description: string;
+  products: Product[];
+}
+
+export const productCategories: ProductCategory[] = [
+  {
+    id: "aerated",
+    title: "Admixtures for Aerated Concrete",
+    description:
+      "Specialized admixtures designed to enhance the production of aerated concrete with improved strength, reduced material consumption, and superior workability.",
+    products: [
+      {
+        name: "Porplast-1",
+        description:
+          "A preparation consisting of a mixture of lignosulfonates and surfactants — a component with a comprehensive effect.",
+        features: [
+          "Improves plasticizing and liquefying properties",
+          "Suitable for cement with high content of additives",
+          "Reduces mixing water by 2–5%",
+          "Reduces cement and lime consumption",
+          "Improves rheological properties of the mix",
+          "Reduces segregation of components",
+          "No negative impact on setting time",
+          "Slight delay in demoulding time",
+          "Reduces production defects",
+        ],
+      },
+      {
+        name: "Porplast-2",
+        description:
+          "A preparation based on a carefully selected blend of naphthalene resin salts, natural polymers, a binding regulator and surfactants — with comprehensive, multi-action performance.",
+        features: [
+          "Delivers strong plasticizing and liquefying properties",
+          "Compatible with all cement types",
+          "Reduces mixing water by 2–7%",
+          "Reduces binder (cement and lime) consumption",
+          "Improves rheological properties with reduced tendency for ingredient agglomeration",
+          "No effect on demoulding time when binders are reduced",
+          "Shortens demoulding time when binders are not reduced",
+          "Reduces production defects",
+        ],
+      },
+      {
+        name: "Porplast-H",
+        description:
+          "An advanced preparation formulated from selected naphthalene resin salts, natural polymers, a binding regulator and surfactants. Broadly compatible with all cement types and engineered for demanding production environments.",
+        features: [
+          "Improves mix fluidity and plasticity",
+          "Reduces mixing water by 2–7% and lowers binder (cement and lime) consumption",
+          "Enhances rheological properties and eliminates ingredient agglomeration",
+          "No impact on demoulding time when binder quantities are maintained",
+          "Shortens demoulding time when binders are not reduced",
+          "Reduces production defects",
+        ],
+      },
+      {
+        name: "Porplast-NF",
+        description:
+          "An advanced, fluorine-free preparation combining selected naphthalene resin salts, natural polymers, a binding regulator and surfactants. Fully compatible with all cement types.",
+        features: [
+          "Strong plasticizing and liquefying action",
+          "Compatible with all cement types",
+          "Reduces mixing water by 2–7%",
+          "Reduces cement and lime consumption",
+          "Improves rheological properties with reduced agglomeration tendency",
+          "No effect on demoulding time when binders are reduced",
+          "Shortens demoulding time when binders are not reduced",
+          "Reduces production defects",
+        ],
+      },
+      {
+        name: "Sulfomiks-20",
+        description:
+          "A precisely balanced three-component admixture developed specifically for aerated concrete production. Its effectiveness has been independently confirmed by tests conducted by Benda-Lutz Skawina.",
+        features: [
+          "Reduces water surface tension for improved mix distribution",
+          "Ensures strong emulsification of aluminum powder",
+          "Increases hydrogen yield (Hmax) compared to standard alternatives",
+          "High overall efficiency",
+          "Degreases aluminum powder flakes for a cleaner process",
+          "Reduces foam formation during aluminum suspension preparation",
+          "Contains a pH-stabilizing buffer for consistent process conditions",
+          "Improves stability of the rising and gassing phases, reducing cracking risk",
+          "Reduces aluminum powder consumption — delivering measurable material savings",
+        ],
+      },
+      {
+        name: "Sulfomiks-35",
+        description:
+          "A high-performance aluminum powder emulsifier purpose-built for aerated concrete production, offering superior efficiency and easier handling than conventional alternatives.",
+        features: [
+          "Reduces water surface tension",
+          "Ensures strong emulsification of aluminum powder",
+          "Increases hydrogen yield (Hmax) compared to competing products",
+          "High overall efficiency",
+          "Degreases aluminum powder flakes",
+          "Reduces foam during aluminum suspension preparation",
+          "Lower viscosity for easier transport and dosing",
+          "Contains a pH-stabilizing buffer",
+          "Improves stability of rising and gassing phases and pore distribution in the concrete mass",
+        ],
+      },
+    ],
+  },
+  {
+    id: "ready-mix",
+    title: "Admixtures for Ready-Mix Concrete",
+    description:
+      "High-performance plasticizers and superplasticizers for ready-mix concrete and mortar production, delivering superior strength, frost resistance, and workability.",
+    products: [
+      {
+        name: "Poliplast-1",
+        description:
+          "A modern plasticizer based on a mixture of nitrates and other refining additives, with comprehensive action. An excellent accelerator of cement setting and concrete hardening — resulting in automatic compaction and prevention of efflorescence. Suitable for colored concrete production, reduces water absorption, and acts as a corrosion inhibitor. Indispensable in early spring, autumn and winter conditions.",
+      },
+      {
+        name: "Poliplast-2",
+        description:
+          "A modern superplasticizer formulated from modified lignosulfonates and complementary refining additives, delivering comprehensive performance across a wide range of applications.",
+        features: [
+          "Increases concrete strength",
+          "Improves rheological properties of the concrete mix",
+          "Produces concrete with light air entrainment and higher frost resistance",
+          "Excellent tightness, durability and lower water absorption",
+          "Uniform structure and smooth surfaces",
+          "Slightly delays the binding process for improved workability",
+        ],
+      },
+      {
+        name: "Poliplast-3",
+        description:
+          "A modern superplasticizer based on modified lignosulfonates and refining additives, offering comprehensive action with a pronounced effect on binding time — ideal for applications requiring extended workability.",
+        features: [
+          "Increases concrete strength",
+          "Improves rheological properties of the concrete mix",
+          "Produces concrete with light air entrainment and higher frost resistance",
+          "Excellent tightness, strength and lower water absorption",
+          "Uniform structure and smooth surfaces",
+          "Delays the binding process for extended placement windows",
+        ],
+      },
+      {
+        name: "Superplast-100",
+        description:
+          "A dual-action fluidizer based on sulfonated melamine-formaldehyde resin. It perfectly liquefies the concrete mix while simultaneously accelerating hardening — resulting in significantly increased concrete strength. Particularly effective with pure cements and ideal for concrete requiring both high initial and final strengths. In combination with air-entraining admixtures, it helps maintain a stable porous structure.",
+      },
+      {
+        name: "Superplast-150",
+        description:
+          "A high-performance fluidizer combining sulfonated naphthalene resins with sulfonated melamine-formaldehyde resins. The synergy of melamine and naphthalene makes it possible to achieve liquid concrete with a relatively small dosage. Effectively accelerates setting time — making it ideal for products requiring rapid mold removal.",
+      },
+      {
+        name: "Superplast-440",
+        description:
+          "A fluidizing admixture produced from natural polymers and sulfonated naphthalene-formaldehyde resins. Its primary mechanism is delaying the onset of setting by modifying the cement hydration reaction, making it suited to large pours and warm-weather concreting.",
+        features: [
+          "Extends the start of the setting process for improved workability",
+          "Increases air content in the mix, improving frost resistance",
+          "Produces concrete with high cohesion",
+        ],
+      },
+      {
+        name: "Superplast-500",
+        description:
+          "A dual-action fluidizer based on sulfonated naphthalene-formaldehyde resins. It liquefies the mix while accelerating hardening for higher strength, and additionally aerates the mixture for improved frost resistance. Well-suited to applications with higher binder contents or fine aggregate fractions.",
+        features: [
+          "Significantly liquefies the concrete mix",
+          "Accelerates hardening for increased concrete strength",
+          "Aerates the mixture for enhanced frost resistance",
+          "Effective with higher binder contents and fine aggregate fractions",
+          "Improves distribution of concrete mass ingredients",
+        ],
+      },
+      {
+        name: "Ultraplast-100",
+        description:
+          "A next-generation admixture based on polycarboxylate ethers, enabling a substantial reduction in mixing water and the production of very high-strength concrete at extremely low w/c ratios.",
+        features: [
+          "Enables very high-strength concrete at very low w/c ratios",
+          "Promotes excellent dispersion of cement particles",
+          "Creates a homogeneous cement paste with low internal friction",
+          "Produces concrete with high cohesion",
+          "Supports self-densification — ideal for self-compacting concrete (SCC)",
+        ],
+      },
+      {
+        name: "Ultraplast-110",
+        description:
+          "A fluidizing admixture based on modified polycarboxylate ethers and natural polymers, enabling the production of exceptionally high-strength concrete with a very low w/c ratio. Particularly suited to structures with stringent durability requirements.",
+        features: [
+          "Enables exceptionally high-strength concrete at very low w/c ratios",
+          "Excellent cement particle dispersion",
+          "Creates a homogeneous paste with minimal internal friction",
+          "High mix cohesion for superior material integrity",
+        ],
+      },
+      {
+        name: "Ultraplast-300",
+        description:
+          "A highly effective admixture based on polycarboxylate ether, significantly reducing mixing water while delivering excellent workability and strength. A proven solution for self-compacting concrete.",
+        features: [
+          "Significant reduction of mixing water",
+          "Enables very high-strength concrete at very low w/c ratios",
+          "Outstanding cement particle dispersion",
+          "Homogeneous paste with minimal internal friction",
+          "High mix cohesion — ideal for self-compacting concrete (SCC)",
+        ],
+      },
+      {
+        name: "Ultraplast-310",
+        description:
+          "A versatile fluidizing admixture based on modified polycarboxylates and natural polymers. Compared to Ultraplast-300, it offers a wider technological range — making it adaptable across a broader spectrum of high-strength concrete applications.",
+        features: [
+          "Wider technological application range than standard PCE admixtures",
+          "Enables very high-strength concrete at very low w/c ratios",
+          "Suitable for applications requiring both high initial and final strengths",
+        ],
+      },
+      {
+        name: "Ultraplast-700",
+        description:
+          "A powerful admixture combining polycarboxylate ether and sulfonated naphthalene formaldehyde resin. Delivers a significant reduction in mixing water, increases air content for frost resistance, and accelerates setting — perfect for products requiring fast mold turnaround.",
+        features: [
+          "Major reduction of mixing water at unchanged cement content",
+          "Increased concrete strength",
+          "Aerates the mix for improved frost resistance",
+          "Accelerates setting time for fast mold removal",
+          "Suitable for high initial and final strength requirements",
+        ],
+      },
+      {
+        name: "Wibroplast",
+        description:
+          "A surfactant-based plasticizing admixture that enhances the quality of vibrated concrete across multiple dimensions — from workability and surface finish to equipment longevity and durability.",
+        features: [
+          "Creates a homogeneous cement paste with low internal friction for improved rheology",
+          "Extends the service life of production machinery and equipment",
+          "Reduces calcium efflorescence, improving concrete durability and appearance",
+          "Enhances the surface finish of concrete elements",
+          "Seals and compacts the concrete mix for increased strength and longevity",
+        ],
+      },
+    ],
+  },
+];
