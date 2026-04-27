@@ -5,6 +5,7 @@ import AboutAdmixturesPage from "./pages/about-admixtures/AboutAdmixturesPage";
 import AboutUsPage from "./pages/about-us/AboutUsPage";
 import LabTestsPage from "./pages/lab-tests/LabTestsPage";
 import OfferAdmixturesPage from "./pages/offer-admixtures/OfferAdmixturesPage";
+import ContactPage from "./pages/contact/ContactPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/offer" element={<Navigate to="/offer/laboratory-tests" replace />} />
           <Route path="/offer/laboratory-tests" element={<LabTestsPage />} />
           <Route path="/offer/concrete-admixtures" element={<OfferAdmixturesPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

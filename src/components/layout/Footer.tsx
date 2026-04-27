@@ -1,6 +1,7 @@
 import { Phone, Mail, Globe } from "lucide-react";
 import nowaLogoWhite from "../../assets/nowa_logo_white.svg";
 import Container from "./Container";
+import { CONTACT } from "../../data/contact";
 
 function FacebookIcon() {
   return (
@@ -42,22 +43,22 @@ export default function Footer() {
 
             <div className="flex flex-col gap-2.5 text-base text-white/70">
               <a
-                href="tel:+48783366742"
+                href={CONTACT.phoneHref}
                 className="flex items-center gap-3 hover:text-white transition-colors group"
               >
                 <span className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center group-hover:bg-accent transition-colors shrink-0">
                   <Phone size={15} />
                 </span>
-                +48 783 366 742
+                {CONTACT.phone}
               </a>
               <a
-                href="mailto:nowa@home.pl"
+                href={CONTACT.emailHref}
                 className="flex items-center gap-3 hover:text-white transition-colors group"
               >
                 <span className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center group-hover:bg-accent transition-colors shrink-0">
                   <Mail size={15} />
                 </span>
-                nowa@home.pl
+                {CONTACT.email}
               </a>
               <div className="flex items-center gap-3 text-white/70">
                 <span className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center shrink-0">
