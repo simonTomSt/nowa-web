@@ -1,0 +1,211 @@
+{
+  "hero": {
+    "title": "Domieszki chemiczne",
+    "description": "Wysokowydajne domieszki do betonu komórkowego i towarowego — opracowane i produkowane przez nasz zespół dla budownictwa."
+  },
+  "intro": {
+    "text": "Domieszki chemiczne oferują liczne korzyści, takie jak poprawa właściwości betonu, zwiększenie jego wytrzymałości i odporności na mróz oraz redukcja wymaganej ilości wody. Nasza firma od wielu lat produkuje te domieszki, dostarczając je do branży budowlanej w celu ulepszenia betonu komórkowego, betonu towarowego i zapraw.",
+    "learnMore": "Dowiedz się więcej"
+  },
+  "cta": {
+    "heading": "Nie widzisz potrzebnej Ci domieszki?",
+    "contactUs": "Skontaktuj się z nami"
+  },
+  "categories": {
+    "aerated": {
+      "title": "Domieszki do Betonu Komórkowego",
+      "description": "Specjalistyczne domieszki zaprojektowane w celu poprawy produkcji betonu komórkowego o zwiększonej wytrzymałości, zmniejszonym zużyciu materiałów i doskonałej urabialności."
+    },
+    "readyMix": {
+      "title": "Domieszki do Betonu Towarowego",
+      "description": "Wysokowydajne plastyfikatory i superplastyfikatory do produkcji betonu towarowego i zapraw, zapewniające doskonałą wytrzymałość, odporność na mróz i urabialność."
+    }
+  },
+  "products": {
+    "Porplast-1": {
+      "description": "Preparat składający się z mieszaniny lignosulfonianów i surfaktantów — składnik o kompleksowym działaniu.",
+      "features": [
+        "Poprawia właściwości uplastyczniające i upłynniające",
+        "Odpowiedni do cementu o wysokiej zawartości dodatków",
+        "Redukuje wodę zarobową o 2–5%",
+        "Zmniejsza zużycie cementu i wapna",
+        "Poprawia właściwości reologiczne mieszanki",
+        "Zmniejsza segregację składników",
+        "Brak negatywnego wpływu na czas wiązania",
+        "Nieznaczne opóźnienie czasu rozformowania",
+        "Zmniejsza defekty produkcyjne"
+      ]
+    },
+    "Porplast-2": {
+      "description": "Preparat oparty na starannie dobranej mieszance soli żywic naftalenowych, naturalnych polimerów, regulatora wiązania i surfaktantów — o kompleksowym, wielokierunkowym działaniu.",
+      "features": [
+        "Zapewnia silne właściwości uplastyczniające i upłynniające",
+        "Kompatybilny ze wszystkimi rodzajami cementu",
+        "Redukuje wodę zarobową o 2–7%",
+        "Zmniejsza zużycie spoiwa (cementu i wapna)",
+        "Poprawia właściwości reologiczne przy zmniejszonej tendencji do aglomeracji składników",
+        "Brak wpływu na czas rozformowania przy redukcji spoiw",
+        "Skraca czas rozformowania, gdy spoiwa nie są redukowane",
+        "Zmniejsza defekty produkcyjne"
+      ]
+    },
+    "Porplast-H": {
+      "description": "Zaawansowany preparat sformułowany z wybranych soli żywic naftalenowych, naturalnych polimerów, regulatora wiązania i surfaktantów. Szeroko kompatybilny ze wszystkimi rodzajami cementu i zaprojektowany dla wymagających środowisk produkcyjnych.",
+      "features": [
+        "Poprawia płynność i plastyczność mieszanki",
+        "Redukuje wodę zarobową o 2–7% i obniża zużycie spoiwa (cementu i wapna)",
+        "Poprawia właściwości reologiczne i eliminuje aglomerację składników",
+        "Brak wpływu na czas rozformowania przy zachowaniu ilości spoiwa",
+        "Skraca czas rozformowania, gdy spoiwa nie są redukowane",
+        "Zmniejsza defekty produkcyjne"
+      ]
+    },
+    "Porplast-NF": {
+      "description": "Zaawansowany preparat bez fluoru łączący wybrane sole żywic naftalenowych, naturalne polimery, regulator wiązania i surfaktanty. W pełni kompatybilny ze wszystkimi rodzajami cementu.",
+      "features": [
+        "Silne działanie uplastyczniające i upłynniające",
+        "Kompatybilny ze wszystkimi rodzajami cementu",
+        "Redukuje wodę zarobową o 2–7%",
+        "Zmniejsza zużycie cementu i wapna",
+        "Poprawia właściwości reologiczne przy zmniejszonej tendencji do aglomeracji",
+        "Brak wpływu na czas rozformowania przy redukcji spoiw",
+        "Skraca czas rozformowania, gdy spoiwa nie są redukowane",
+        "Zmniejsza defekty produkcyjne"
+      ]
+    },
+    "Sulfomiks-20": {
+      "description": "Precyzyjnie zbilansowana trójskładnikowa domieszka opracowana specjalnie do produkcji betonu komórkowego. Jej skuteczność została niezależnie potwierdzona badaniami przeprowadzonymi przez Benda-Lutz Skawina.",
+      "features": [
+        "Zmniejsza napięcie powierzchniowe wody dla poprawionego rozkładu mieszanki",
+        "Zapewnia silną emulgację proszku aluminiowego",
+        "Zwiększa wydajność wodoru (Hmax) w porównaniu ze standardowymi alternatywami",
+        "Wysoka ogólna efektywność",
+        "Odtłuszcza płatki proszku aluminiowego dla czystszego procesu",
+        "Zmniejsza tworzenie się piany podczas przygotowania zawiesiny aluminiowej",
+        "Zawiera bufor stabilizujący pH dla stałych warunków procesu",
+        "Poprawia stabilność faz wznoszenia i gazowania, zmniejszając ryzyko pęknięć",
+        "Zmniejsza zużycie proszku aluminiowego — dostarczając wymiernych oszczędności materiałowych"
+      ]
+    },
+    "Sulfomiks-35": {
+      "description": "Wysokowydajny emulgator proszku aluminiowego stworzony specjalnie do produkcji betonu komórkowego, oferujący wyższą wydajność i łatwiejszą obsługę niż konwencjonalne alternatywy.",
+      "features": [
+        "Zmniejsza napięcie powierzchniowe wody",
+        "Zapewnia silną emulgację proszku aluminiowego",
+        "Zwiększa wydajność wodoru (Hmax) w porównaniu z konkurencyjnymi produktami",
+        "Wysoka ogólna efektywność",
+        "Odtłuszcza płatki proszku aluminiowego",
+        "Zmniejsza tworzenie się piany podczas przygotowania zawiesiny aluminiowej",
+        "Niższa lepkość dla łatwiejszego transportu i dozowania",
+        "Zawiera bufor stabilizujący pH",
+        "Poprawia stabilność faz wznoszenia i gazowania oraz rozkład porów w masie betonowej"
+      ]
+    },
+    "Poliplast-1": {
+      "description": "Nowoczesny plastyfikator oparty na mieszaninie azotanów i innych dodatków uszlachetniających, o kompleksowym działaniu. Doskonały akcelerator wiązania cementu i twardnienia betonu — skutkujący automatycznym zagęszczaniem i zapobieganiem wysołom. Odpowiedni do produkcji betonu barwionego, zmniejsza nasiąkliwość i działa jako inhibitor korozji. Niezastąpiony wczesną wiosną, jesienią i zimą."
+    },
+    "Poliplast-2": {
+      "description": "Nowoczesny superplastyfikator sformułowany z modyfikowanych lignosulfonianów i uzupełniających dodatków uszlachetniających, zapewniający kompleksową wydajność w szerokim zakresie zastosowań.",
+      "features": [
+        "Zwiększa wytrzymałość betonu",
+        "Poprawia właściwości reologiczne mieszanki betonowej",
+        "Produkuje beton z lekkim napowietrzeniem i wyższą odpornością na mróz",
+        "Doskonała szczelność, trwałość i niższa nasiąkliwość",
+        "Jednolita struktura i gładkie powierzchnie",
+        "Nieznacznie opóźnia proces wiązania dla lepszej urabialności"
+      ]
+    },
+    "Poliplast-3": {
+      "description": "Nowoczesny superplastyfikator oparty na modyfikowanych lignosulfonianach i dodatkach uszlachetniających, oferujący kompleksowe działanie z wyraźnym wpływem na czas wiązania — idealny do zastosowań wymagających wydłużonej urabialności.",
+      "features": [
+        "Zwiększa wytrzymałość betonu",
+        "Poprawia właściwości reologiczne mieszanki betonowej",
+        "Produkuje beton z lekkim napowietrzeniem i wyższą odpornością na mróz",
+        "Doskonała szczelność, wytrzymałość i niższa nasiąkliwość",
+        "Jednolita struktura i gładkie powierzchnie",
+        "Opóźnia proces wiązania dla wydłużonych okien układania"
+      ]
+    },
+    "Superplast-100": {
+      "description": "Dwufunkcyjny upłynniacz oparty na sulfonowanej żywicy melaminowo-formaldehydowej. Doskonale upłynnia mieszankę betonową, jednocześnie przyspieszając twardnienie — skutkując znacznie zwiększoną wytrzymałością betonu. Szczególnie skuteczny przy czystych cementach i idealny do betonu wymagającego zarówno wysokiej wytrzymałości początkowej, jak i końcowej. W połączeniu z domieszkami napowietrzającymi pomaga utrzymać stabilną strukturę porowatą."
+    },
+    "Superplast-150": {
+      "description": "Wysokowydajny upłynniacz łączący sulfonowane żywice naftalenowe z sulfonowanymi żywicami melaminowo-formaldehydowymi. Synergia melaminy i naftalenu pozwala na osiągnięcie płynnego betonu przy stosunkowo małym dozowaniu. Skutecznie przyspiesza czas wiązania — idealny do produktów wymagających szybkiego rozformowania."
+    },
+    "Superplast-440": {
+      "description": "Domieszka upłynniająca produkowana z naturalnych polimerów i sulfonowanych żywic naftalenowo-formaldehydowych. Głównym mechanizmem działania jest opóźnianie początku wiązania poprzez modyfikację reakcji hydratacji cementu, co czyni ją odpowiednią do dużych wylewów i betonowania w ciepłych warunkach.",
+      "features": [
+        "Wydłuża początek procesu wiązania dla poprawionej urabialności",
+        "Zwiększa zawartość powietrza w mieszance, poprawiając odporność na mróz",
+        "Produkuje beton o wysokiej spójności"
+      ]
+    },
+    "Superplast-500": {
+      "description": "Dwufunkcyjny upłynniacz oparty na sulfonowanych żywicach naftalenowo-formaldehydowych. Upłynnia mieszankę, przyspieszając twardnienie dla wyższej wytrzymałości, i dodatkowo napowietrza mieszankę dla poprawionej odporności na mróz. Odpowiedni do zastosowań z wyższą zawartością spoiw lub drobnych frakcji kruszywa.",
+      "features": [
+        "Znacznie upłynnia mieszankę betonową",
+        "Przyspiesza twardnienie dla zwiększonej wytrzymałości betonu",
+        "Napowietrza mieszankę dla lepszej odporności na mróz",
+        "Skuteczny przy wyższej zawartości spoiw i drobnych frakcji kruszywa",
+        "Poprawia rozkład składników masy betonowej"
+      ]
+    },
+    "Ultraplast-100": {
+      "description": "Domieszka nowej generacji oparta na eterach polikarboksylanowych, umożliwiająca znaczną redukcję wody zarobowej i produkcję betonu o bardzo wysokiej wytrzymałości przy bardzo niskich współczynnikach w/c.",
+      "features": [
+        "Umożliwia produkcję betonu o bardzo wysokiej wytrzymałości przy bardzo niskich współczynnikach w/c",
+        "Zapewnia doskonałe rozproszenie cząstek cementu",
+        "Tworzy jednorodną pastę cementową o niskim tarciu wewnętrznym",
+        "Produkuje beton o wysokiej spójności",
+        "Wspomaga samozagęszczanie — idealny do betonu samozagęszczającego (SCC)"
+      ]
+    },
+    "Ultraplast-110": {
+      "description": "Domieszka upłynniająca oparta na modyfikowanych eterach polikarboksylanowych i naturalnych polimerach, umożliwiająca produkcję wyjątkowo wysokowytrzymałego betonu przy bardzo niskim współczynniku w/c. Szczególnie odpowiednia do konstrukcji o rygorystycznych wymaganiach trwałości.",
+      "features": [
+        "Umożliwia produkcję wyjątkowo wysokowytrzymałego betonu przy bardzo niskich współczynnikach w/c",
+        "Doskonałe rozproszenie cząstek cementu",
+        "Tworzy jednorodną pastę o minimalnym tarciu wewnętrznym",
+        "Wysoka spójność mieszanki dla doskonałej integralności materiału"
+      ]
+    },
+    "Ultraplast-300": {
+      "description": "Wysoce skuteczna domieszka oparta na eterze polikarboksylanowym, znacznie redukująca wodę zarobową przy jednoczesnym zapewnieniu doskonałej urabialności i wytrzymałości. Sprawdzone rozwiązanie dla betonu samozagęszczającego.",
+      "features": [
+        "Znaczna redukcja wody zarobowej",
+        "Umożliwia produkcję betonu o bardzo wysokiej wytrzymałości przy bardzo niskich współczynnikach w/c",
+        "Wybitne rozproszenie cząstek cementu",
+        "Jednorodna pasta o minimalnym tarciu wewnętrznym",
+        "Wysoka spójność mieszanki — idealny do betonu samozagęszczającego (SCC)"
+      ]
+    },
+    "Ultraplast-310": {
+      "description": "Wszechstronna domieszka upłynniająca oparta na modyfikowanych polikarboksylanach i naturalnych polimerach. W porównaniu z Ultraplast-300 oferuje szerszy zakres technologiczny — co czyni ją adaptowalną w szerszym spektrum zastosowań betonu wysokowytrzymałościowego.",
+      "features": [
+        "Szerszy zakres zastosowań technologicznych niż standardowe domieszki PCE",
+        "Umożliwia produkcję betonu o bardzo wysokiej wytrzymałości przy bardzo niskich współczynnikach w/c",
+        "Odpowiednia do zastosowań wymagających zarówno wysokiej wytrzymałości początkowej, jak i końcowej"
+      ]
+    },
+    "Ultraplast-700": {
+      "description": "Silna domieszka łącząca eter polikarboksylanowy i sulfonowaną żywicę naftalenowo-formaldehydową. Zapewnia znaczną redukcję wody zarobowej, zwiększa zawartość powietrza dla odporności na mróz i przyspiesza wiązanie — idealna dla produktów wymagających szybkiej rotacji form.",
+      "features": [
+        "Duża redukcja wody zarobowej przy niezmienionej zawartości cementu",
+        "Zwiększona wytrzymałość betonu",
+        "Napowietrza mieszankę dla poprawionej odporności na mróz",
+        "Przyspiesza czas wiązania dla szybkiego rozformowania",
+        "Odpowiednia do wymagań wysokiej wytrzymałości początkowej i końcowej"
+      ]
+    },
+    "Wibroplast": {
+      "description": "Domieszka uplastyczniająca na bazie surfaktantów, poprawiająca jakość wibrowanego betonu w wielu wymiarach — od urabialności i wykończenia powierzchni po trwałość sprzętu i wytrzymałość.",
+      "features": [
+        "Tworzy jednorodną pastę cementową o niskim tarciu wewnętrznym dla poprawionej reologii",
+        "Wydłuża żywotność maszyn i urządzeń produkcyjnych",
+        "Zmniejsza wysołe wapniowe, poprawiając trwałość i wygląd betonu",
+        "Poprawia wykończenie powierzchni elementów betonowych",
+        "Uszczelnia i zagęszcza mieszankę betonową dla zwiększonej wytrzymałości i trwałości"
+      ]
+    }
+  }
+}

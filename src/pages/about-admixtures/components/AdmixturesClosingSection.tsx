@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 import blobGrad from "../../../assets/blob-grad.svg";
 
 export default function AdmixturesClosingSection() {
+  const { t } = useTranslation("admixtures");
+
   return (
     <section className="relative bg-secondary py-20 lg:py-28 overflow-hidden">
       <img
@@ -17,10 +20,7 @@ export default function AdmixturesClosingSection() {
       <Container className="relative z-10">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-xl sm:text-2xl text-white leading-relaxed font-light">
-            Our products redefine concrete production standards, offering a wide range of admixtures
-            that meet the diverse needs of the construction industry. Our innovative solutions
-            provide comprehensive engineering and ecological benefits, contributing to the creation
-            of concrete with a low environmental impact.
+            {t("closing")}
           </p>
         </div>
       </Container>

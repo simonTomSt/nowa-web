@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Badania laboratoryjne",
+    "description": "Kompleksowe badania materiałów dla betonu, kruszyw, elementów murowych i zapraw — wykonywane według norm europejskich i polskich."
+  },
+  "intro": {
+    "heading": "Precyzyjne Badania dla Nowoczesnego Budownictwa",
+    "description": "Nasze akredytowane laboratorium zapewnia kompleksowe usługi badania materiałów dla betonu, kruszyw, elementów murowych i zapraw — dostarczając dane potrzebne do zapewnienia jakości, zgodności i pewności w każdym projekcie.",
+    "pillars": {
+      "precision": { "label": "Wysoka precyzja", "description": "Skalibrowany sprzęt i rygorystyczna metodologia" },
+      "certified": { "label": "Certyfikowane metody", "description": "Badania wykonywane według norm PN-EN i PN-B" },
+      "documentation": { "label": "Pełna dokumentacja", "description": "Szczegółowe raporty, certyfikaty i analizy" }
+    }
+  },
+  "categories": {
+    "heading": "Wykonywane Badania",
+    "description": "Wybierz kategorię, aby zapoznać się z pełnym zakresem wykonywanych przez nas badań.",
+    "concrete": {
+      "label": "Beton",
+      "tests": [
+        { "name": "Konsystencja — metoda Ve-Be", "standard": "PN-EN 12350-3" },
+        { "name": "Konsystencja — metoda stożka opadowego", "standard": "PN-EN 12350-2" },
+        { "name": "Konsystencja — metoda stolika rozpływu", "standard": "PN-EN 12350-5" },
+        { "name": "Gęstość (beton świeży)", "standard": "PN-EN 12350-6" },
+        { "name": "Zawartość powietrza", "standard": "PN-EN 12350-7" },
+        { "name": "Wytrzymałość na ściskanie — kostki dostarczone przez klienta" },
+        { "name": "Wytrzymałość na ściskanie — wykonanie, pielęgnacja i badanie", "standard": "PN-EN 12390-3" },
+        { "name": "Gęstość (beton stwardniały)", "standard": "PN-EN 12390-7" },
+        { "name": "Głębokość penetracji wody pod ciśnieniem", "standard": "PN-EN 12390-8" },
+        { "name": "Odporność na zamrażanie i rozmrażanie", "standard": "PN-EN 12390-9" }
+      ]
+    },
+    "aggregates": {
+      "label": "Kruszywa",
+      "tests": [
+        { "name": "Skrócony opis petrograficzny", "standard": "PN-EN 932-3:1999" },
+        { "name": "Zawartość wilgoci przez suszenie w piecu wentylowanym", "standard": "PN-EN 1097-5:2001" },
+        { "name": "Uziarnienie (skład ziarnowy)", "standard": "PN-EN 933-1:2000" },
+        { "name": "Zawartość pyłów — przesiewanie na sucho" },
+        { "name": "Zawartość pyłów — przesiewanie na mokro (sita fi 300 mm)" },
+        { "name": "Wskaźnik kształtu — pełny normatywny zestaw sit", "standard": "PN-EN 933-3:2000" },
+        { "name": "Wskaźnik kształtu (suwmiarka Schultza)", "standard": "PN-EN 933-4:2000" },
+        { "name": "Procentowy udział powierzchni łamanych i łupanych", "standard": "PN-EN 933-5:2000" },
+        { "name": "Współczynnik przepływu", "standard": "PN-EN 933-6:2000" },
+        { "name": "Zawartość muszli", "standard": "PN-EN 933-7:2000" },
+        { "name": "Wskaźnik piaskowy SE", "standard": "PN-EN 933-8:2000" },
+        { "name": "Wartość błękitu metylenowego MBF", "standard": "PN-EN 933-9:2000" },
+        { "name": "Gęstość nasypowa (luźna i zagęszczona)", "standard": "PN-EN 1097-3:2000" },
+        { "name": "Gęstość ziaren, pustki, nasiąkliwość WA24", "standard": "PN-EN 1097-6:2002" },
+        { "name": "Odporność na zamrażanie — 10 cykli (woda + 2% NaCl)", "standard": "PN-EN 1367-1:2001" },
+        { "name": "Odporność na zamrażanie — 10 cykli w siarczanie magnezu", "standard": "PN-EN 1367-2:2000" },
+        { "name": "Odporność na rozdrabnianie LA", "standard": "PN-EN 1097-2:2000" },
+        { "name": "Zawartość siarki", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Siarczany rozpuszczalne w kwasach AS", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Składniki wpływające na czas wiązania i twardnienia (opóźnienie wiązania, względna wytrzymałość na ściskanie S)", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Zanieczyszczenia organiczne (próchnica)", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Rozpuszczalność w wodzie", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Strata prażenia", "standard": "PN-EN 1744-1:2000" }
+      ]
+    },
+    "masonry": {
+      "label": "Elementy murowe",
+      "tests": [
+        { "name": "Wytrzymałość na ściskanie", "standard": "PN-EN 772-1" },
+        { "name": "Gęstość netto i brutto w stanie suchym", "standard": "PN-EN 772-13" },
+        { "name": "Nasiąkliwość", "standard": "PN-EN 772-11" },
+        { "name": "Odkształcenia wilgotnościowe (zmiany liniowe)", "standard": "PN-EN 772-14" },
+        { "name": "Odporność na zamrażanie (F10 lub F25)", "standard": "PN-B-19306:2004" },
+        { "name": "Wymiary", "standard": "PN-EN 772-16" },
+        { "name": "Płaskość powierzchni", "standard": "PN-EN 772-20" },
+        { "name": "Wytrzymałość na zginanie", "standard": "PN-EN 772-6" },
+        { "name": "Procentowy udział otworów", "standard": "PN-EN 772-2" }
+      ]
+    },
+    "mortars": {
+      "label": "Zaprawy",
+      "tests": [
+        { "name": "Konsystencja świeżej zaprawy", "standard": "PN-EN 1015-3:2000/A1:2004" },
+        { "name": "Gęstość objętościowa świeżej zaprawy", "standard": "PN-EN 1015-6:2000/A1:2007" },
+        { "name": "Czas zachowania właściwości roboczych / czas otwarty", "standard": "PN-EN 1015-9:2001/A1:2007 Metoda A" },
+        { "name": "Zawartość powietrza", "standard": "PN-EN 1015-7:2000" },
+        { "name": "Zawartość chlorków rozpuszczalnych w wodzie", "standard": "PN-EN 1015-17:2002/A1:2005" },
+        { "name": "Gęstość objętościowa stwardniałej zaprawy w stanie suchym", "standard": "PN-EN 1015-10:2001/A1:2007" },
+        { "name": "Wytrzymałość na ściskanie", "standard": "PN-EN 1015-11:2001/A1:2007" },
+        { "name": "Nasiąkliwość kapilarna", "standard": "PN-EN 1015-18:2003" },
+        { "name": "Trwałość — odporność na zamrażanie i rozmrażanie", "standard": "PN-85/B-04500" }
+      ]
+    }
+  },
+  "scope": {
+    "heading": "Zakres Działalności",
+    "description": "Zapewniamy kompleksowe rozwiązania techniczne i technologiczne dla producentów betonu i zapraw.",
+    "services": {
+      "rawMaterial": { "title": "Ocena surowców", "description": "Ocena jakości surowców stosowanych w produkcji betonu i zapraw." },
+      "recipe": { "title": "Analiza i optymalizacja receptur", "description": "Analiza i optymalizacja składów mieszanek betonowych, zaprawowych i CBGM." },
+      "admixture": { "title": "Dobór domieszek", "description": "Dobór odpowiednich domieszek betonowych na podstawie surowców stosowanych przez klienta." },
+      "testing": { "title": "Badania laboratoryjne i terenowe", "description": "Weryfikacja skuteczności domieszek zarówno w badaniach laboratoryjnych, jak i na miejscu budowy." },
+      "quality": { "title": "Bieżąca kontrola jakości", "description": "Ciągłe monitorowanie jakości i trwałości betonów i suchych mieszanek zgodnie z normami i wewnętrznymi procedurami ZKP." },
+      "documentation": { "title": "Pełna dokumentacja", "description": "Sporządzanie kompleksowej dokumentacji obejmującej wyniki badań, raporty i analizy." }
+    }
+  },
+  "credibility": {
+    "heading": "Nasze Laboratorium",
+    "description": "Nowoczesny sprzęt i doświadczony personel — zaprojektowane do dostarczania wiarygodnych wyników.",
+    "imageAlt1": "Sprzęt do analizy sitowej w laboratorium",
+    "imageAlt2": "Precyzyjne wagi laboratoryjne",
+    "imageAlt3": "Proces badań laboratoryjnych"
+  },
+  "cta": {
+    "heading": "Potrzebujesz badań laboratoryjnych?",
+    "description": "Skontaktuj się z nami — omówimy Twoje potrzeby badawcze i przedstawimy dopasowaną ofertę.",
+    "contactUs": "Skontaktuj się"
+  }
+}

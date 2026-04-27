@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Laboratory tests",
+    "description": "Comprehensive material testing for concrete, aggregates, masonry elements, and mortars — performed to European and Polish standards."
+  },
+  "intro": {
+    "heading": "Precision Testing for Modern Construction",
+    "description": "Our accredited laboratory provides comprehensive material testing services for concrete, aggregates, masonry elements, and mortars — giving you the data you need to ensure quality, compliance, and confidence in every project.",
+    "pillars": {
+      "precision": { "label": "High precision", "description": "Calibrated equipment and rigorous methodology" },
+      "certified": { "label": "Certified methods", "description": "Tests performed to PN-EN and PN-B standards" },
+      "documentation": { "label": "Full documentation", "description": "Detailed reports, certificates, and analyses" }
+    }
+  },
+  "categories": {
+    "heading": "Performed Tests",
+    "description": "Select a category to explore the full scope of tests we carry out.",
+    "concrete": {
+      "label": "Concrete",
+      "tests": [
+        { "name": "Consistency — Ve-Be method", "standard": "PN-EN 12350-3" },
+        { "name": "Consistency — slump cone method", "standard": "PN-EN 12350-2" },
+        { "name": "Consistency — flow table method", "standard": "PN-EN 12350-5" },
+        { "name": "Density (fresh concrete)", "standard": "PN-EN 12350-6" },
+        { "name": "Air content", "standard": "PN-EN 12350-7" },
+        { "name": "Compressive strength — cubes supplied by client" },
+        { "name": "Compressive strength — making, curing & testing", "standard": "PN-EN 12390-3" },
+        { "name": "Density (hardened concrete)", "standard": "PN-EN 12390-7" },
+        { "name": "Depth of water penetration under pressure", "standard": "PN-EN 12390-8" },
+        { "name": "Frost resistance", "standard": "PN-EN 12390-9" }
+      ]
+    },
+    "aggregates": {
+      "label": "Aggregates",
+      "tests": [
+        { "name": "Abbreviated petrographic description", "standard": "PN-EN 932-3:1999" },
+        { "name": "Moisture content by drying in ventilated oven", "standard": "PN-EN 1097-5:2001" },
+        { "name": "Particle size distribution (grading)", "standard": "PN-EN 933-1:2000" },
+        { "name": "Fines content — dry sieving" },
+        { "name": "Fines content — wet sieving (fi 300 mm sieves)" },
+        { "name": "Flakiness index — full normative sieve set", "standard": "PN-EN 933-3:2000" },
+        { "name": "Shape index (Schultz calliper)", "standard": "PN-EN 933-4:2000" },
+        { "name": "Percentage of crushed and broken surfaces", "standard": "PN-EN 933-5:2000" },
+        { "name": "Flow coefficient", "standard": "PN-EN 933-6:2000" },
+        { "name": "Shell content", "standard": "PN-EN 933-7:2000" },
+        { "name": "Sand equivalent SE", "standard": "PN-EN 933-8:2000" },
+        { "name": "Methylene blue value MBF", "standard": "PN-EN 933-9:2000" },
+        { "name": "Bulk density (loose & tapped)", "standard": "PN-EN 1097-3:2000" },
+        { "name": "Particle density, voids, water absorption WA24", "standard": "PN-EN 1097-6:2002" },
+        { "name": "Frost resistance — 10 cycles (water + 2% NaCl)", "standard": "PN-EN 1367-1:2001" },
+        { "name": "Frost resistance — 10 cycles in magnesium sulphate", "standard": "PN-EN 1367-2:2000" },
+        { "name": "Resistance to fragmentation LA", "standard": "PN-EN 1097-2:2000" },
+        { "name": "Sulphur content", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Acid-soluble sulphates AS", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Components affecting setting & hardening (setting delay, relative compressive strength S)", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Organic impurities (humus)", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Water solubility", "standard": "PN-EN 1744-1:2000" },
+        { "name": "Loss on ignition", "standard": "PN-EN 1744-1:2000" }
+      ]
+    },
+    "masonry": {
+      "label": "Masonry elements",
+      "tests": [
+        { "name": "Compressive strength", "standard": "PN-EN 772-1" },
+        { "name": "Net and gross dry density", "standard": "PN-EN 772-13" },
+        { "name": "Water absorption", "standard": "PN-EN 772-11" },
+        { "name": "Moisture movement (linear changes)", "standard": "PN-EN 772-14" },
+        { "name": "Frost resistance (F10 or F25)", "standard": "PN-B-19306:2004" },
+        { "name": "Dimensions", "standard": "PN-EN 772-16" },
+        { "name": "Flatness of faces", "standard": "PN-EN 772-20" },
+        { "name": "Flexural tensile strength", "standard": "PN-EN 772-6" },
+        { "name": "Percentage area of holes", "standard": "PN-EN 772-2" }
+      ]
+    },
+    "mortars": {
+      "label": "Mortars",
+      "tests": [
+        { "name": "Consistency of fresh mortar", "standard": "PN-EN 1015-3:2000/A1:2004" },
+        { "name": "Bulk density of fresh mortar", "standard": "PN-EN 1015-6:2000/A1:2007" },
+        { "name": "Workable life / pot life", "standard": "PN-EN 1015-9:2001/A1:2007 Method A" },
+        { "name": "Air content", "standard": "PN-EN 1015-7:2000" },
+        { "name": "Water-soluble chloride content", "standard": "PN-EN 1015-17:2002/A1:2005" },
+        { "name": "Dry bulk density of hardened mortar", "standard": "PN-EN 1015-10:2001/A1:2007" },
+        { "name": "Compressive strength", "standard": "PN-EN 1015-11:2001/A1:2007" },
+        { "name": "Water absorption by capillarity", "standard": "PN-EN 1015-18:2003" },
+        { "name": "Durability — freeze-thaw resistance", "standard": "PN-85/B-04500" }
+      ]
+    }
+  },
+  "scope": {
+    "heading": "Scope of Activity",
+    "description": "We provide comprehensive technical and technological solutions for concrete and mortar producers.",
+    "services": {
+      "rawMaterial": { "title": "Raw material evaluation", "description": "Assessment of the quality of raw materials used in concrete and mortar production." },
+      "recipe": { "title": "Recipe analysis & optimisation", "description": "Analysis and optimisation of concrete, mortar, and CBGM mix compositions." },
+      "admixture": { "title": "Admixture selection", "description": "Selection of appropriate concrete admixtures based on the raw materials used by the client." },
+      "testing": { "title": "Laboratory & field testing", "description": "Verification of admixture effectiveness through both laboratory and on-site tests." },
+      "quality": { "title": "Ongoing quality control", "description": "Continuous quality and durability monitoring of concretes and dry mixes in line with standards and internal QC procedures." },
+      "documentation": { "title": "Full documentation", "description": "Preparation of comprehensive documentation including test results, reports, and analyses." }
+    }
+  },
+  "credibility": {
+    "heading": "Our Laboratory",
+    "description": "Modern equipment and experienced staff — built to deliver reliable results.",
+    "imageAlt1": "Laboratory sieve analysis equipment",
+    "imageAlt2": "Precision laboratory scales",
+    "imageAlt3": "Laboratory testing process"
+  },
+  "cta": {
+    "heading": "Need laboratory testing?",
+    "description": "Get in touch — we'll discuss your testing needs and provide a tailored offer.",
+    "contactUs": "Contact us"
+  }
+}

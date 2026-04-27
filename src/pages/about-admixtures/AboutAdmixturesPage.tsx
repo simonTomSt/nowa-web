@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import architectureImg from "../../assets/architecture.jpg";
 import PageHero from "../../components/PageHero";
 import AdmixtureAdvantagesSection from "./components/AdmixtureAdvantagesSection";
@@ -8,11 +9,13 @@ import HowAdmixturesWorkSection from "./components/HowAdmixturesWorkSection";
 import AdmixturesClosingSection from "./components/AdmixturesClosingSection";
 
 export default function AboutAdmixturesPage() {
+  const { t } = useTranslation("admixtures");
+
   return (
     <>
       <PageHero
-        title="About admixtures"
-        description="The use of admixtures for concrete has many advantages and benefits that have a positive impact on the quality and properties of this material."
+        title={t("hero.title")}
+        description={t("hero.description")}
         backgroundImage={architectureImg}
       />
       <WhatAreAdmixturesSection />

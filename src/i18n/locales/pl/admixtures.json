@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "O domieszzkach",
+    "description": "Stosowanie domieszek do betonu ma wiele zalet i korzyści, które pozytywnie wpływają na jakość i właściwości tego materiału."
+  },
+  "whatAre": {
+    "heading": "Czym są domieszki betonowe?",
+    "text": "Domieszki do betonu to substancje dodawane do mieszanki betonowej, wpływające na jakość, trwałość i efektywność betonu. Nasze innowacyjne rozwiązania zapewniają kompleksowe korzyści inżynieryjne i ekologiczne, przyczyniając się do tworzenia betonu o niskim wpływie na środowisko."
+  },
+  "advantages": {
+    "heading": "Podstawowe zalety domieszek",
+    "items": [
+      "Znacznie zwiększają wytrzymałość",
+      "Zwiększają reologię (uplastyczniają mieszankę)",
+      "Umożliwiają redukcję wody, co pozwala zmniejszyć ilość cementu bez wpływu na jakość produktu",
+      "Wydłużają lub skracają czas wiązania i twardnienia",
+      "Zmniejszają zużycie urządzeń i maszyn produkcyjnych",
+      "Umożliwiają pracę w niskich temperaturach",
+      "Pozwalają dostosować beton do indywidualnych wymagań klienta"
+    ]
+  },
+  "types": {
+    "heading": "Rodzaje domieszek betonowych",
+    "items": [
+      {
+        "name": "Domieszki uplastyczniające (plastyfi katory)",
+        "description": "Te domieszki poprawiają plastyczność i konsystencję mieszanki betonowej, umożliwiając jej lepsze kształtowanie i rozkład. Pomagają zmniejszyć ilość wody potrzebnej do uzyskania odpowiedniej konsystencji, co poprawia wytrzymałość i jakość betonu."
+      },
+      {
+        "name": "Domieszki fluidyzujące (superplastyfikatory)",
+        "description": "Superplastyfikatory działają podobnie jak plastyfikatory, ale są bardziej skuteczne i pozwalają na uzyskanie wysoce płynnych mieszanek betonowych przy minimalnym dodatku wody. Umożliwiają produkcję betonu o wyjątkowo wysokiej płynności."
+      },
+      {
+        "name": "Domieszki zwiększające wiązanie wody (stabilizatory)",
+        "description": "Te substancje zwiększają zdolność mieszanki betonowej do zatrzymywania wody, co poprawia spójność betonu. Są często stosowane w produkcji betonu samozagęszczającego się."
+      },
+      {
+        "name": "Domieszki napowietrzające",
+        "description": "Te domieszki wprowadzają mikropęcherzyki powietrza do mieszanki betonowej. Pomagają zwiększyć odporność betonu na mróz poprzez zmniejszenie naprężeń wewnętrznych podczas procesu zamrażania i rozmrażania."
+      },
+      {
+        "name": "Domieszki przyspieszające wiązanie",
+        "description": "Te substancje skracają czas potrzebny do rozpoczęcia procesu wiązania cementu w betonie. Są przydatne w sytuacjach, gdy wymagane jest szybkie osiągnięcie wytrzymałości betonu."
+      },
+      {
+        "name": "Domieszki przyspieszające twardnienie",
+        "description": "Te domieszki przyspieszają proces twardnienia betonu po związaniu cementu z wodą. Stosowane są do skrócenia czasu dojrzewania betonu."
+      },
+      {
+        "name": "Domieszki uszczelniające",
+        "description": "Te substancje mają na celu zwiększenie szczelności mieszanki betonowej, co jest ważne w przypadku konstrukcji wymagających odporności na przenikanie wody."
+      },
+      {
+        "name": "Domieszki kompleksowe",
+        "description": "Są to specjalne domieszki łączące funkcje dwóch lub więcej rodzajów domieszek. Na przykład mogą opóźniać wiązanie betonu, redukować ilość wody i jednocześnie uplastyczniać mieszankę."
+      }
+    ]
+  },
+  "summary": "W zależności od konkretnego projektu budowlanego, różne rodzaje domieszek mogą być stosowane w celu osiągnięcia określonych właściwości i jakości betonu. Wybór odpowiedniej domieszki zależy od wymagań projektu, warunków budowlanych i pożądanych właściwości betonu.",
+  "howWork": {
+    "heading": "Jak działają domieszki betonowe?",
+    "items": [
+      {
+        "title": "Plastyfikatory",
+        "description": "Plastyfikatory to substancje chemiczne dodawane do mieszanki betonowej w celu poprawy jej urabialności i konsystencji. Działają poprzez zmniejszenie napięcia powierzchniowego wody w mieszance, umożliwiając lepsze rozproszenie cząstek cementu. W efekcie plastyfikatory pozwalają na użycie mniejszej ilości wody w mieszance, przy zachowaniu urabialności i dobrych właściwości betonu."
+      },
+      {
+        "title": "Superplastyfikatory PCE",
+        "description": "Superplastyfikatory na bazie eterów polikarboksylanowych (PCE) to wysoce skuteczne plastyfikatory betonowe, które dodawane są w małych ilościach w celu poprawy płynności i urabialności mieszanki betonowej. Ich struktura chemiczna pozwala im silnie wiązać się z cząstkami cementu, co zapobiega ich sklejaniu się i zwiększa płynność betonu."
+      },
+      {
+        "title": "Domieszki opóźniające i przyspieszające",
+        "description": "Domieszki opóźniające opóźniają proces wiązania cementu, co jest przydatne, gdy potrzeba więcej czasu na układanie, transport lub wykańczanie powierzchni betonu. Działają poprzez adsorpcję na powierzchni ziaren cementu, spowalniając proces hydratacji. Domieszki przyspieszające natomiast przyspieszają proces wiązania i twardnienia cementu w betonie. Są przydatne w sytuacjach wymagających szybkiego wiązania betonu."
+      },
+      {
+        "title": "Domieszki wiążące",
+        "description": "Domieszki wiążące, znane również jako środki wiążące lub promotory adhezji, to substancje dodawane do betonu lub zaprawy w celu poprawy ich przyczepności do innych powierzchni. Działają poprzez tworzenie wiązania chemicznego lub mechanicznego między świeżym betonem a istniejącą powierzchnią lub materiałem."
+      },
+      {
+        "title": "Domieszki napowietrzające",
+        "description": "Domieszki napowietrzające to substancje chemiczne dodawane do betonu w celu wprowadzenia systemu małych pęcherzyków powietrza do mieszanki. Pęcherzyki te są równomiernie rozmieszczone w masie betonowej i pozostają stabilne po stwardnieniu betonu. Głównym celem tych domieszek jest poprawa odporności betonu na mróz."
+      },
+      {
+        "title": "Domieszki kompleksowe",
+        "description": "Domieszki kompleksowe to rodzaj domieszek betonowych łączących funkcje kilku różnych rodzajów domieszek w jeden produkt. Mogą zawierać np. kombinację plastyfikatora, opóźniacza i środka napowietrzającego. Można je dostosować do konkretnych potrzeb i warunków budowlanych. Upraszczają proces dozowania betonu, ponieważ zamiast kilku oddzielnych domieszek wystarczy dodać tylko jedną."
+      }
+    ]
+  },
+  "closing": "Nasze produkty redefiniują standardy produkcji betonu, oferując szeroką gamę domieszek spełniających różnorodne potrzeby branży budowlanej. Nasze innowacyjne rozwiązania zapewniają kompleksowe korzyści inżynieryjne i ekologiczne, przyczyniając się do tworzenia betonu o niskim wpływie na środowisko."
+}

@@ -1,38 +1,21 @@
 import { useState, useEffect } from "react";
 import { Dropdown, Label, Surface } from "@heroui/react";
 import { Menu, X, ChevronDown, FlaskConical, Blocks } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import nowaFullLogo from "../../assets/nowa_full_logo.svg";
-import nowaLogo from "../../assets/nowa_full_logo.svg";
 import ueLogoFlag from "../../assets/ue-logo-flag.jpeg";
 import Container from "./Container";
+import { getRoute, type Lang } from "../../i18n/routes";
 
-const navLinks = [
-  { label: "About admixtures", href: "/about-admixtures" },
-  { label: "About us", href: "/about-us" },
-  { label: "Contact", href: "/contact" },
-];
+interface HeaderProps {
+  lang: Lang;
+}
 
-const offerLinks = [
-  {
-    label: "Laboratory tests",
-    href: "/offer/laboratory-tests",
-    icon: FlaskConical,
-    description: "Material testing & certification",
-  },
-  {
-    label: "Concrete admixtures",
-    href: "/offer/concrete-admixtures",
-    icon: Blocks,
-    description: "Aerated & ready-mix solutions",
-  },
-];
-
-export default function Header() {
+export default function Header({ lang }: HeaderProps) {
+  const { t } = useTranslation("common");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileOfferOpen, setMobileOfferOpen] = useState(false);
-  // scrolled: past 24px — hero header goes opaque
   const [scrolled, setScrolled] = useState(false);
-  // compact: past 400px — sticky mini header slides in
   const [compact, setCompact] = useState(false);
 
   useEffect(() => {
@@ -43,6 +26,27 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const navLinks = [
+    { label: t("nav.aboutAdmixtures"), href: getRoute("aboutAdmixtures", lang) },
+    { label: t("nav.aboutUs"), href: getRoute("aboutUs", lang) },
+    { label: t("nav.contact"), href: getRoute("contact", lang) },
+  ];
+
+  const offerLinks = [
+    {
+      label: t("nav.offerLabTests"),
+      href: getRoute("offerLabTests", lang),
+      icon: FlaskConical,
+      description: t("nav.offerLabTestsDesc"),
+    },
+    {
+      label: t("nav.offerAdmixtures"),
+      href: getRoute("offerAdmixtures", lang),
+      icon: Blocks,
+      description: t("nav.offerAdmixturesDesc"),
+    },
+  ];
 
   const linkClass = scrolled
     ? "relative px-4 py-2 text-base font-medium text-gray-600 hover:text-accent rounded-xl hover:bg-white transition-all duration-150"
@@ -65,9 +69,9 @@ export default function Header() {
         >
           <Container>
             <div className="flex items-center justify-between h-20">
-              <a href="/" className="flex-shrink-0 group">
+              <a href={getRoute("home", lang)} className="flex-shrink-0 group">
                 <img
-                  src={scrolled ? nowaFullLogo : nowaLogo}
+                  src={nowaFullLogo}
                   alt="Nowa"
                   className="h-12 w-auto transition-all duration-200 group-hover:opacity-75 group-hover:scale-[0.98]"
                 />
@@ -90,7 +94,7 @@ export default function Header() {
                   <Dropdown>
                     <Dropdown.Trigger>
                       <button className={offerBtnClass}>
-                        Offer
+                        {t("nav.offer")}
                         <ChevronDown
                           size={14}
                           className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
@@ -131,7 +135,7 @@ export default function Header() {
               </nav>
 
               <div className="hidden md:flex items-center gap-4">
-                <a href="/eu-projects" aria-label="Projekty UE">
+                <a href={getRoute("euProjects", lang)} aria-label={t("euProjectsAriaLabel")}>
                   <img
                     src={ueLogoFlag}
                     alt="EU"
@@ -146,7 +150,7 @@ export default function Header() {
                     ? "border-gray-200 bg-white/80 text-gray-600 hover:border-accent hover:text-accent"
                     : "border-white/30 bg-white/10 text-white hover:bg-white/20"
                 }`}
-                aria-label="Toggle menu"
+                aria-label={t("nav.toggleMenu")}
                 onClick={() => setMobileOpen((v) => !v)}
               >
                 {mobileOpen ? <X size={18} /> : <Menu size={18} />}
@@ -172,7 +176,7 @@ export default function Header() {
                   className="w-full px-4 py-3 text-base font-medium text-gray-700 hover:text-accent hover:bg-white rounded-xl transition-all text-left flex items-center justify-between"
                   onClick={() => setMobileOfferOpen((v) => !v)}
                 >
-                  Offer
+                  {t("nav.offer")}
                   <ChevronDown
                     size={15}
                     className={`transition-transform duration-200 ${
@@ -196,7 +200,7 @@ export default function Header() {
                   </div>
                 )}
                 <div className="mt-1 pt-3 border-t border-black/5 px-2">
-                  <a href="/eu-projects" aria-label="Projekty UE">
+                  <a href={getRoute("euProjects", lang)} aria-label={t("euProjectsAriaLabel")}>
                     <img
                       src={ueLogoFlag}
                       alt="EU"
@@ -220,7 +224,7 @@ export default function Header() {
         <div className="bg-white/95 backdrop-blur-xl border-b border-black/5 shadow-md shadow-black/5">
           <Container>
             <div className="flex items-center justify-between h-14">
-              <a href="/" className="flex-shrink-0 group">
+              <a href={getRoute("home", lang)} className="flex-shrink-0 group">
                 <img
                   src={nowaFullLogo}
                   alt="Nowa"
@@ -241,7 +245,7 @@ export default function Header() {
                 <Dropdown>
                   <Dropdown.Trigger>
                     <button className="flex items-center gap-1 px-3.5 py-1.5 text-sm font-medium text-gray-600 hover:text-accent rounded-lg hover:bg-gray-100 transition-all duration-150 group/offer">
-                      Offer
+                      {t("nav.offer")}
                       <ChevronDown
                         size={12}
                         className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
@@ -282,7 +286,7 @@ export default function Header() {
 
               <button
                 className="md:hidden w-9 h-9 flex items-center justify-center rounded-lg border border-gray-200 bg-white text-gray-600 hover:border-accent hover:text-accent transition-colors"
-                aria-label="Toggle menu"
+                aria-label={t("nav.toggleMenu")}
                 onClick={() => setMobileOpen((v) => !v)}
               >
                 {mobileOpen ? <X size={16} /> : <Menu size={16} />}

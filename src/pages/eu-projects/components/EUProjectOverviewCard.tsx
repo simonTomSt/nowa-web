@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 import blobGrad from "../../../assets/blob-grad.svg";
 import euLogos from "../../../assets/eu_logos.png";
 
 export default function EUProjectOverviewCard() {
+  const { t } = useTranslation("euProjects");
+
   return (
     <section className="relative bg-slate-50 py-16 lg:py-24 overflow-hidden">
       <img
@@ -15,7 +18,7 @@ export default function EUProjectOverviewCard() {
           <div className="flex justify-center mb-8">
             <img
               src={euLogos}
-              alt="Fundusze Europejskie – Program Regionalny, Rzeczpospolita Polska, Województwo Łódzkie, Unia Europejska – Europejski Fundusz Rozwoju Regionalnego"
+              alt={t("overview.imageAlt")}
               className="max-h-16 w-auto object-contain"
             />
           </div>
@@ -23,16 +26,13 @@ export default function EUProjectOverviewCard() {
           <hr className="border-slate-200 mb-8" />
 
           <p className="text-lg lg:text-xl font-bold text-gray-900 leading-snug">
-            „Wdrożenie własnych wyników prac B+R dotyczących opracowania drobnowymiarowych elementów murowych oraz innowacyjnych izolacyjnych materiałów ściennych"
+            {t("overview.projectTitle")}
           </p>
 
           <p className="mt-5 text-sm text-gray-600 leading-relaxed">
-            w ramach konkursu numer RPLD.02.03.01.-IP.02-10-080/22 ogłoszonego w ramach
-            regionalnego programu operacyjnego województwa łódzkiego na lata 2014-2020{" "}
+            {t("overview.projectDetails")}{" "}
             <span className="font-semibold text-gray-700">
-              OŚ PRIORYTETOWA II: INNOWACYJNA I KONKURENCYJNA GOSPODARKA
-              DZIAŁANIE II.3: ZWIĘKSZENIE KONKURENCYJNOŚCI MŚP
-              PODDZIAŁANIE II.3.1: INNOWACJE W MŚP
+              {t("overview.priorityAxis")}
             </span>
           </p>
         </div>

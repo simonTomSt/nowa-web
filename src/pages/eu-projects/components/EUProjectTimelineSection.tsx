@@ -1,7 +1,10 @@
 import { Calendar, ExternalLink } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 
 export default function EUProjectTimelineSection() {
+  const { t } = useTranslation("euProjects");
+
   return (
     <section className="bg-white py-16 lg:py-20">
       <Container>
@@ -9,7 +12,7 @@ export default function EUProjectTimelineSection() {
           <div className="flex items-center gap-3 mb-8">
             <div className="w-1 h-8 rounded-full bg-accent shrink-0" />
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
-              Termin realizacji projektu
+              {t("timeline.heading")}
             </h2>
           </div>
 
@@ -20,10 +23,10 @@ export default function EUProjectTimelineSection() {
               </span>
               <div>
                 <p className="text-xs text-gray-400 font-medium uppercase tracking-wide mb-0.5">
-                  Okres realizacji
+                  {t("timeline.implementationPeriod")}
                 </p>
                 <p className="text-base font-semibold text-gray-800">
-                  01/04/2023 r. – 31/12/2023 r.
+                  {t("timeline.dates")}
                 </p>
               </div>
             </div>
@@ -39,10 +42,10 @@ export default function EUProjectTimelineSection() {
               </span>
               <div>
                 <p className="text-xs text-gray-400 font-medium uppercase tracking-wide mb-0.5">
-                  Więcej informacji
+                  {t("timeline.moreInfo")}
                 </p>
                 <p className="text-base font-semibold text-gray-800 group-hover:text-accent transition-colors">
-                  www.mapadotacji.gov.pl
+                  {t("timeline.mapLink")}
                 </p>
               </div>
             </a>

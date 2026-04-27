@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 import bgBlobGradient from "../../../assets/bg-blob-gradient.svg";
 
 export default function AboutIntroSection() {
+  const { t } = useTranslation("about");
+
   return (
     <section className="relative bg-white py-20 lg:py-28 overflow-hidden">
       <img
@@ -12,11 +15,10 @@ export default function AboutIntroSection() {
       <Container className="relative z-10">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight tracking-tight">
-            Let's Get To Know Each Other Better!
+            {t("intro.heading")}
           </h2>
           <p className="mt-5 text-base sm:text-lg text-gray-500 leading-relaxed">
-            We are experts in creating innovative chemical admixtures for aerated and ready-mix
-            concrete and in testing building materials.
+            {t("intro.text")}
           </p>
         </div>
       </Container>

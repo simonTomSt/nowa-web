@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "About admixtures",
+    "description": "The use of admixtures for concrete has many advantages and benefits that have a positive impact on the quality and properties of this material."
+  },
+  "whatAre": {
+    "heading": "What are concrete admixtures?",
+    "text": "Additives for concrete are substances added to the concrete mix, influencing the quality, durability, and efficiency of the concrete. Our innovative solutions provide comprehensive engineering and ecological benefits, contributing to the creation of concrete with a low environmental impact."
+  },
+  "advantages": {
+    "heading": "Basic advantages of admixtures",
+    "items": [
+      "They significantly increase endurance",
+      "They increase rheology (plasticizes the mixture)",
+      "They enable water reduction, which allows you to reduce the amount of cement without affecting the quality of the product",
+      "They extend or shorten the setting and hardening time",
+      "Reduce wear and tear on production equipment and machines",
+      "Enables work at low temperatures",
+      "They allow the concrete to be adapted to the individual requirements of the customer"
+    ]
+  },
+  "types": {
+    "heading": "Types of concrete admixtures",
+    "items": [
+      {
+        "name": "Plasticizing admixtures (plasticizers)",
+        "description": "These additives improve the plasticity and consistency of the concrete mix, enabling its better shaping and distribution. They help reduce the amount of water needed to achieve the appropriate consistency, which improves the strength and quality of the concrete."
+      },
+      {
+        "name": "Fluidizing admixtures (superplasticizers)",
+        "description": "Superplasticizers work similarly to plasticizers, but they are more effective and allow for achieving highly fluid concrete mixes with a minimal addition of water. They enable the production of concrete with exceptionally high fluidity."
+      },
+      {
+        "name": "Admixtures increasing water bonding (stabilizers)",
+        "description": "These substances increase the ability of the concrete mix to retain water, which improves the cohesiveness of the concrete. They are often used in the production of self-compacting concrete."
+      },
+      {
+        "name": "Air-entraining additives",
+        "description": "These admixtures introduce air microbubbles into the concrete mixture. They help increase concrete's frost resistance by reducing internal stresses during the freezing and thawing process."
+      },
+      {
+        "name": "Admixtures that accelerate setting",
+        "description": "These substances shorten the time needed to start the cement setting process in concrete. They are useful in situations where quick achievement of concrete strength is required."
+      },
+      {
+        "name": "Admixtures that accelerate hardening",
+        "description": "These admixtures speed up the hardening process of concrete after the cement has bonded with the water. They are used to shorten the curing time of concrete."
+      },
+      {
+        "name": "Sealing admixtures",
+        "description": "These substances are intended to increase the tightness of the concrete mixture, which is important in the case of structures that require resistance to water seepage."
+      },
+      {
+        "name": "Complex admixtures",
+        "description": "These are special admixtures that combine the functions of two or more types of admixtures. For example, they can delay the setting of concrete, reduce the amount of water and at the same time plasticize the mixture."
+      }
+    ]
+  },
+  "summary": "Depending on the specific construction project, different types of admixtures may be used to achieve specific properties and quality of concrete. The choice of the right admixture depends on the requirements of the project, construction conditions, and the desired properties of the concrete.",
+  "howWork": {
+    "heading": "How do concrete admixtures work?",
+    "items": [
+      {
+        "title": "Plasticizers",
+        "description": "Plasticizers are chemical substances that are added to the concrete mix to improve its workability and consistency. They work by reducing the surface tension of water in the mix, allowing for better dispersion of cement particles. As a result, plasticizers allow the use of less water in the mix, while maintaining the workability and good properties of the concrete."
+      },
+      {
+        "title": "PCE Superplasticizers",
+        "description": "Polycarboxylate ether (PCE) superplasticizers are highly effective concrete plasticizers that are added in small amounts to improve the fluidity and workability of the concrete mix. Their chemical structure allows them to strongly bind to cement particles, which prevents them from sticking together and increases the flowability of concrete."
+      },
+      {
+        "title": "Retarding & Accelerating Admixtures",
+        "description": "Retarding admixtures delay the cement setting process, which is useful when more time is needed for laying, transportation or finishing the concrete surface. They work by adsorbing on the surface of the cement grains, slowing the hydration process. Accelerating admixtures, on the other hand, speed up the setting and hardening process of cement in concrete. They are useful in situations that require fast setting of the concrete."
+      },
+      {
+        "title": "Bonding Admixtures",
+        "description": "Bonding admixtures, also known as bonding agents or adhesion promoters, are substances added to concrete or mortar to improve their adhesion to other surfaces. They work by creating a chemical or mechanical bond between fresh concrete and an existing surface or material."
+      },
+      {
+        "title": "Air-Entraining Admixtures",
+        "description": "Air-entraining admixtures are chemical substances added to concrete to introduce a system of small air bubbles into the mixture. These bubbles are evenly distributed throughout the concrete mass and remain stable after the concrete hardens. The main purpose of these admixtures is to improve the frost resistance of concrete."
+      },
+      {
+        "title": "Complex Admixtures",
+        "description": "Complex admixtures are a type of concrete admixture that combine the functions of several different types of admixtures into one product. They can contain, for example, a combination of plasticizer, retarder, and air-entraining agent. They can be customized to specific needs and construction conditions. They simplify the concrete dosing process because only one admixture needs to be added instead of several separate ones."
+      }
+    ]
+  },
+  "closing": "Our products redefine concrete production standards, offering a wide range of admixtures that meet the diverse needs of the construction industry. Our innovative solutions provide comprehensive engineering and ecological benefits, contributing to the creation of concrete with a low environmental impact."
+}

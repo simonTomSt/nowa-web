@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "aboutAdmixtures": "O domieszkach",
+    "aboutUs": "O nas",
+    "contact": "Kontakt",
+    "offer": "Oferta",
+    "offerLabTests": "Badania laboratoryjne",
+    "offerLabTestsDesc": "Badania i certyfikacja materiałów",
+    "offerAdmixtures": "Domieszki betonowe",
+    "offerAdmixturesDesc": "Rozwiązania do betonu komórkowego i towarowego",
+    "toggleMenu": "Przełącz menu"
+  },
+  "footer": {
+    "learnMore": "Dowiedz się więcej",
+    "followUs": "Obserwuj nas",
+    "followUsText": "Odwiedź nasze profile w mediach społecznościowych, aby być na bieżąco z naszymi aktualnościami i ciekawymi treściami!",
+    "copyright": "© {{year}} Nowa. Wszelkie prawa zastrzeżone.",
+    "language": "Język",
+    "languages": {
+      "pl": "🇵🇱 Polski",
+      "en": "🇬🇧 English"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+    "links": {
+      "aboutAdmixtures": "O domieszkach",
+      "offer": "Oferta",
+      "aboutUs": "O nas",
+      "contact": "Kontakt",
+      "euProjects": "Projekty UE",
+      "privacyPolicy": "Polityka prywatności"
+    }
+  },
+  "euProjectsAriaLabel": "Projekty UE",
+  "branding": {
+    "euLogosAlt": "Logotypy programu Fundusze Europejskie, Rzeczpospolitej Polskiej, Województwa Łódzkiego i Unii Europejskiej"
+  }
+}

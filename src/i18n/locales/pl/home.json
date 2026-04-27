@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "headline": "Innowacyjne Domieszki Chemiczne do Nowoczesnego Betonu",
+    "subtext": "Opracowujemy i dostarczamy wysokiej wydajności domieszki do betonu komórkowego i towarowego oraz świadczymy profesjonalne usługi badania materiałów budowlanych.",
+    "ctaLabel": "Dowiedz się więcej"
+  },
+  "services": {
+    "heading": "Co robimy?",
+    "description": "Od chemicznych domieszek i surowców, przez badania laboratoryjne, po doradztwo produkcyjne — obejmujemy każdy etap nowoczesnej produkcji betonu.",
+    "checkOffer": "Sprawdź ofertę",
+    "items": {
+      "labTests": {
+        "title": "Badania Laboratoryjne",
+        "description": "Kompleksowe badania i certyfikacja materiałów budowlanych zgodnie z normami branżowymi."
+      },
+      "audit": {
+        "title": "Audyt",
+        "description": "Profesjonalny audyt procesów produkcji betonu, systemów kontroli jakości i operacji zakładu."
+      },
+      "admixtures": {
+        "title": "Domieszki",
+        "description": "Wysokowydajne chemiczne domieszki do betonu komórkowego i towarowego, dopasowane do potrzeb produkcji."
+      },
+      "productionTechnology": {
+        "title": "Technologia Produkcji",
+        "description": "Doradztwo techniczne i optymalizacja procesów dla nowoczesnej produkcji betonu i zakładów betonu komórkowego."
+      },
+      "machinery": {
+        "title": "Maszyny",
+        "description": "Dostawa i serwis specjalistycznego sprzętu do produkcji betonu, systemów dozowania i aparatury laboratoryjnej."
+      },
+      "rawMaterials": {
+        "title": "Surowce",
+        "description": "Pozyskiwanie i ocena jakości surowców stosowanych w produkcji betonu, w tym spoiw i kruszyw."
+      }
+    }
+  },
+  "whoWeAre": {
+    "heading": "Kim Jesteśmy?",
+    "text": "Jesteśmy doświadczonym zespołem specjalistów z ponad 10-letnim doświadczeniem w branży chemicznych domieszek do betonu i laboratoriów budowlanych. Reprezentujemy młodość, kreatywność i otwartość na innowacje. Nasze osiągnięcia w tworzeniu innowacyjnych produktów dla betonu, w tym domieszek chemicznych, oraz prowadzenie badań w naszym laboratorium budowlanym stanowią fundament naszej działalności. Wyróżniamy się na rynku dzięki pasji, pełnemu zaangażowaniu i ciągłemu dążeniu do doskonalenia naszych produktów i usług.",
+    "cta": "Poznaj nas lepiej",
+    "imageAlt": "Nasz zespół podczas pracy"
+  },
+  "valueProposition": {
+    "admixtures": {
+      "heading": "Dlaczego nasze chemiczne domieszki do betonu to najlepszy wybór?",
+      "description": "Jeśli szukasz skutecznych i ekonomicznych chemicznych domieszek do betonu, nasza firma jest odpowiedzią na Twoje potrzeby. Specjalizujemy się w oferowaniu nowej generacji domieszek opartych na lignosulfonianach, które gwarantują wyższą jakość betonu w konkurencyjnych cenach. Bez względu na to, czy potrzebujesz domieszek w formie płynnej czy stałej, nasz doświadczony zespół specjalistów dopasuje je do Twoich oczekiwań.",
+      "feature1": "Większa Wytrzymałość",
+      "feature2": "Redukcja Wody",
+      "cta": "Więcej właściwości",
+      "imageAlt": "Laboratorium chemiczne ze szkłem i próbkami domieszek",
+      "card": {
+        "title": "Indywidualne Podejście",
+        "description": "Dla każdego klienta domieszki są dobierane i komponowane tak, aby precyzyjnie odpowiadać jego specyficznym wymaganiom."
+      }
+    },
+    "labTests": {
+      "heading": "Badania laboratoryjne materiałów budowlanych",
+      "description": "Pobieramy próbki materiałów budowlanych niezależnie od lokalizacji i przekazujemy je do naszego zaawansowanego laboratorium budowlanego. Jako ekspert w dziedzinie badań i analiz materiałów, oferujemy producentom kruszyw wsparcie nie tylko w zakresie Zakładowej Kontroli Produkcji, ale także w przygotowaniu profesjonalnej dokumentacji handlowej.",
+      "feature1": "Utrzymanie Norm i Standardów",
+      "feature2": "Kontrola Jakości Produktów",
+      "cta": "Pełna oferta badań",
+      "imageAlt": "Naukowiec mierzący próbki materiałów budowlanych w laboratorium",
+      "card": {
+        "title": "Profesjonalny sprzęt pomiarowy",
+        "description": "Dysponujemy nowoczesnym sprzętem pomiarowym spełniającym wszystkie normy i standardy techniczne."
+      }
+    }
+  }
+}

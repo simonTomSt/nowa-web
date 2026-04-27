@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 import blobGrad from "../../../assets/blob-grad.svg";
 import labTest2 from "../../../assets/lab-test-2.jpg";
@@ -5,6 +6,8 @@ import labTest3 from "../../../assets/lab-test3.jpg";
 import labTests from "../../../assets/lab-tests.jpg";
 
 export default function LabCredibilitySection() {
+  const { t } = useTranslation("labTests");
+
   return (
     <section className="relative bg-slate-50 py-20 lg:py-28 overflow-hidden">
       <img
@@ -15,10 +18,10 @@ export default function LabCredibilitySection() {
       <Container className="relative z-10">
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight tracking-tight">
-            Our Laboratory
+            {t("credibility.heading")}
           </h2>
           <p className="mt-4 text-base sm:text-lg text-gray-500 leading-relaxed">
-            Modern equipment and experienced staff — built to deliver reliable results.
+            {t("credibility.description")}
           </p>
         </div>
 
@@ -26,7 +29,7 @@ export default function LabCredibilitySection() {
           <div className="md:col-span-2 rounded-2xl overflow-hidden aspect-video">
             <img
               src={labTest2}
-              alt="Laboratory sieve analysis equipment"
+              alt={t("credibility.imageAlt1")}
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -34,14 +37,14 @@ export default function LabCredibilitySection() {
             <div className="rounded-2xl overflow-hidden flex-1">
               <img
                 src={labTest3}
-                alt="Precision laboratory scales"
+                alt={t("credibility.imageAlt2")}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden flex-1">
               <img
                 src={labTests}
-                alt="Laboratory testing process"
+                alt={t("credibility.imageAlt3")}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>

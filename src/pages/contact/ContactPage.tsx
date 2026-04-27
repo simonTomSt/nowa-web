@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import PageHero from "../../components/PageHero";
 import architectureImg from "../../assets/architecture.jpg";
 import ContactInfoSection from "./components/ContactInfoSection";
@@ -6,11 +7,13 @@ import ContactFormSection from "./components/ContactFormSection";
 import ContactCTASection from "./components/ContactCTASection";
 
 export default function ContactPage() {
+  const { t } = useTranslation("contact");
+
   return (
     <>
       <PageHero
-        title="Contact"
-        description="Contact us and get support, answers to your questions and solutions to your problems. We are here for you!"
+        title={t("hero.title")}
+        description={t("hero.description")}
         backgroundImage={architectureImg}
         overlayIntensity="medium"
       />

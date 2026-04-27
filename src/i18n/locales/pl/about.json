@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "O nas",
+    "description": "Firma z rodzinnymi korzeniami, zbudowana na innowacji, precyzji i ponad 10-letnim doświadczeniu w branży betonowej."
+  },
+  "intro": {
+    "heading": "Poznajmy się lepiej!",
+    "text": "Jesteśmy ekspertami w tworzeniu innowacyjnych chemicznych domieszek do betonu komórkowego i towarowego oraz w badaniu materiałów budowlanych."
+  },
+  "company": {
+    "imageAlt": "Siedziba firmy Nowa",
+    "p1": "Nasz doświadczony zespół, pełen kreatywności i otwartości, jest pionierem w tworzeniu produktów dla branży betonowej. Nasza firma z rodzinnymi korzeniami rozpoczęła działalność od podstaw, wykorzystując naszą głęboką wiedzę i odwagę do innowacji. Przez ponad 10 lat nieustannie doskonaliliśmy nasze chemiczne domieszki, rozwijając własne technologie produkcji. W efekcie stworzyliśmy produkty, które nie tylko poprawiają jakość betonu, ale są również ekonomiczne.",
+    "p2": "W naszym zaawansowanym laboratorium badawczo-budowlanym nie tylko tworzymy innowacyjne domieszki, ale także specjalizujemy się w badaniu materiałów budowlanych, zapewniając, że nasze produkty są dostosowane do indywidualnych potrzeb klientów. Nasza oferta jest wynikiem pracy naszego zespołu i zaufania klientów, którzy dostrzegają w naszym podejściu pasję i zaangażowanie.",
+    "p3": "Nasze chemiczne domieszki do betonu komórkowego i towarowego, a także usługi badania materiałów budowlanych, są symbolem jakości w atrakcyjnej cenie, stawiając nas w czołówce branży betonowej. Dziękujemy za Wasze zaufanie, które pozwoliło nam stać się liderem rynku, i zapraszamy do współpracy w kształtowaniu przyszłości pełnej innowacji i doskonałości."
+  },
+  "values": {
+    "heading": "Wartości firmy",
+    "description": "Dla nas wartości firmy to dążenie do doskonałości, innowacyjność, uczciwość i wyważone podejście.",
+    "items": {
+      "perfectionism": {
+        "title": "Perfekcjonizm",
+        "description": "Naszym absolutnym priorytetem jest ciągłe podnoszenie jakości naszych produktów i usług."
+      },
+      "reliability": {
+        "title": "Rzetelność",
+        "description": "Do powierzonych nam zadań podchodzimy z precyzją i dokładnością."
+      },
+      "honesty": {
+        "title": "Uczciwość",
+        "description": "Nasze zasady działania opierają się na uczciwości i przejrzystości wobec klientów, co stanowi fundament naszej profesjonalnej etyki biznesowej."
+      },
+      "development": {
+        "title": "Rozwój",
+        "description": "Naszym stałym celem jest nie tylko utrzymanie wiodącej pozycji w branży, ale także ciągłe dążenie do rozwoju i wprowadzania najnowszych innowacji do produkcji."
+      },
+      "cooperation": {
+        "title": "Współpraca",
+        "description": "Jesteśmy otwarci na wszelkie propozycje współpracy."
+      },
+      "ecology": {
+        "title": "Ekologia",
+        "description": "Nasza firma jest zdecydowanie zaangażowana w ochronę środowiska, podejmując liczne działania mające na celu minimalizację wpływu naszej działalności na planetę."
+      }
+    }
+  },
+  "faq": {
+    "heading": "Najczęściej zadawane pytania",
+    "description": "Masz pytania? Poniżej zebraliśmy odpowiedzi na najczęstsze z nich.",
+    "items": {
+      "seller": {
+        "question": "Czy sprzedajesz beton?",
+        "answer": "Nie, nie sprzedajemy betonu, tylko chemiczne domieszki poprawiające jego właściwości. Może się to jednak wkrótce zmienić, ponieważ pracujemy nad własnym innowacyjnym materiałem budowlanym opartym na betonie i chcemy wprowadzić go na rynek. Jeśli ten temat Cię interesuje, napisz do nas lub śledź nas na bieżąco."
+      },
+      "missingTests": {
+        "question": "Nie widzę potrzebnych mi badań w ofercie.",
+        "answer": "Nasza oferta laboratoryjna stale się rozszerza. Jeśli nie widzisz konkretnego badania, którego potrzebujesz, skontaktuj się z nami bezpośrednio — w wielu przypadkach możemy uwzględnić indywidualne prośby lub skierować Cię do laboratorium partnerskiego."
+      },
+      "international": {
+        "question": "Czy sprzedajecie tylko w Polsce?",
+        "answer": "Nie, działamy międzynarodowo. Nasze chemiczne domieszki i usługi badawcze są dostępne w całej Europie. Skontaktuj się z nami, aby omówić opcje dostawy i logistykę dla Twojego regionu."
+      },
+      "support": {
+        "question": "Jaka jest Wasza oferta wsparcia technicznego?",
+        "answer": "Zapewniamy kompleksowe wsparcie techniczne, w tym konsultacje na miejscu, optymalizację procesów produkcji, zalecenia dotyczące dawkowania i szkolenia dla Twojego zespołu. Nasi eksperci są dostępni przez cały proces wdrożenia."
+      },
+      "duration": {
+        "question": "Jak długo trwają badania laboratoryjne?",
+        "answer": "Czas badań zależy od rodzaju i zakresu wymaganych badań. Standardowe badania są zazwyczaj wykonywane w ciągu 5–10 dni roboczych. W przypadku pilnych zamówień prosimy o kontakt w celu omówienia opcji ekspresowych."
+      },
+      "sample": {
+        "question": "Czy mogę zamówić próbkę domieszek przed zakupem?",
+        "answer": "Tak, oferujemy próbki naszych domieszek, dzięki czemu możesz ocenić ich działanie w swoich konkretnych warunkach produkcyjnych przed złożeniem pełnego zamówienia. Skontaktuj się z nami, aby zorganizować przesyłkę próbki."
+      }
+    }
+  }
+}

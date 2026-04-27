@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 import bgBlobGradient from "../../../assets/bg-blob-gradient.svg";
 
 export default function WhatAreAdmixturesSection() {
+  const { t } = useTranslation("admixtures");
+
   return (
     <section className="relative bg-white py-20 lg:py-28 overflow-hidden">
       <img
@@ -12,13 +15,10 @@ export default function WhatAreAdmixturesSection() {
       <Container className="relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-6">
-            What are concrete admixtures?
+            {t("whatAre.heading")}
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Additives for concrete are substances added to the concrete mix, influencing the quality,
-            durability, and efficiency of the concrete. Our innovative solutions provide comprehensive
-            engineering and ecological benefits, contributing to the creation of concrete with a low
-            environmental impact.
+            {t("whatAre.text")}
           </p>
         </div>
       </Container>

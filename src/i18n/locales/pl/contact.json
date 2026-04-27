@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "Kontakt",
+    "description": "Skontaktuj się z nami i uzyskaj wsparcie, odpowiedzi na pytania oraz rozwiązania swoich problemów. Jesteśmy tu dla Ciebie!"
+  },
+  "info": {
+    "heading": "Dane kontaktowe",
+    "description": "Skontaktuj się z nami bezpośrednio — jesteśmy gotowi odpowiedzieć na Twoje pytania i wesprzeć Twoje projekty.",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "nip": "NIP"
+  },
+  "form": {
+    "heading": "Napisz do nas",
+    "description": "Wypełnij poniższy formularz, a odezwiemy się tak szybko, jak to możliwe.",
+    "emailLabel": "Adres e-mail",
+    "emailPlaceholder": "twoj@email.pl",
+    "messageLabel": "Wiadomość",
+    "messagePlaceholder": "Napisz swoją wiadomość...",
+    "gdprLabel": "Zgoda RODO",
+    "gdprText": "Wyrażam zgodę na przechowywanie informacji przesłanych przeze mnie na tej stronie w celu udzielenia odpowiedzi na moje zapytanie.",
+    "send": "Wyślij"
+  },
+  "cta": {
+    "heading": "Masz pytanie lub potrzebujesz wsparcia?",
+    "description": "Nasz zespół jest gotowy do pomocy — zadzwoń do nas bezpośrednio lub wyślij wiadomość za pomocą powyższego formularza.",
+    "callNow": "Zadzwoń teraz"
+  }
+}

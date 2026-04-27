@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Projekty UE",
+    "description": "Projekty współfinansowane ze środków Unii Europejskiej w ramach Europejskiego Funduszu Rozwoju Regionalnego."
+  },
+  "intro": {
+    "heading": "Fundusze UE – Zrealizowane projekty",
+    "description": "Realizujemy projekty współfinansowane ze środków Unii Europejskiej, wspierające innowacyjność i konkurencyjność polskich przedsiębiorstw."
+  },
+  "overview": {
+    "imageAlt": "Fundusze Europejskie – Program Regionalny, Rzeczpospolita Polska, Województwo Łódzkie, Unia Europejska – Europejski Fundusz Rozwoju Regionalnego",
+    "projectTitle": "„Wdrożenie własnych wyników prac B+R dotyczących opracowania drobnowymiarowych elementów murowych oraz innowacyjnych izolacyjnych materiałów ściennych\"",
+    "projectDetails": "w ramach konkursu numer RPLD.02.03.01.-IP.02-10-080/22 ogłoszonego w ramach regionalnego programu operacyjnego województwa łódzkiego na lata 2014-2020",
+    "priorityAxis": "OŚ PRIORYTETOWA II: INNOWACYJNA I KONKURENCYJNA GOSPODARKA DZIAŁANIE II.3: ZWIĘKSZENIE KONKURENCYJNOŚCI MŚP PODDZIAŁANIE II.3.1: INNOWACJE W MŚP"
+  },
+  "details": {
+    "heading": "Cel projektu",
+    "p1": "Celem projektu jest zwiększenie konkurencyjności Firmy na rynku krajowym, dzięki zaproponowaniu rozwiązania, którego obecnie w Polsce nie oferuje żaden inny podmiot. W wyniku projektu Wnioskodawca planuje wdrożyć autorskie rozwiązania, które zostały opracowane w laboratorium należącym do Firmy.",
+    "p2": "Rezultat projektu wpisuje się w obecne trendy rynkowe dotyczące rozwiązań pro-środowiskowych i jest odpowiedzią na problemy rynku, w tym na rosnące wyzwania termomodernizacyjne i brak ekologicznych i ekonomicznych alternatyw w produkcji materiałów ściennych i izolacyjnych. Rezultat będzie dedykowany zarówno dla klientów indywidualnych, jak również dla Firm m.in. cały rynek materiałów ściennych, izolacyjnych (w tym hurtownie i deweloperzy).",
+    "p3": "Projekt zakłada realizację dwóch zadań: zakup środków trwałych oraz zakup oprogramowania. Lokalizacja projektu: woj. Łódzkie. Oprócz innowacyjności produktowej/procesowej projekt zakłada zastosowanie technologii informacyjno-komunikacyjnych (TIK) oraz uwzględnia aspekty środowiskowe. Inwestycja realizowana jest przez mikroprzedsiębiorstwo i zlokalizowana jest na terenie wiejskim."
+  },
+  "financial": {
+    "heading": "Finansowanie projektu",
+    "stats": {
+      "totalExpenditure": "Wydatki ogółem",
+      "eligibleExpenditure": "Wydatki kwalifikowalne",
+      "coFinancing": "Dofinansowanie"
+    }
+  },
+  "timeline": {
+    "heading": "Termin realizacji projektu",
+    "implementationPeriod": "Okres realizacji",
+    "dates": "01/04/2023 r. – 31/12/2023 r.",
+    "moreInfo": "Więcej informacji",
+    "mapLink": "www.mapadotacji.gov.pl"
+  }
+}

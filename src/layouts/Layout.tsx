@@ -1,16 +1,33 @@
+import { useEffect } from "react";
 import { Header, Footer, BrandingStrip } from "../components/layout";
+import { getAlternateRoutes, type Lang } from "../i18n/routes";
 
 interface LayoutProps {
   children: React.ReactNode;
+  lang: Lang;
+  currentPath: string;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children, lang, currentPath }: LayoutProps) {
+  const alternates = getAlternateRoutes(currentPath);
+
+  useEffect(() => {
+    document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((el) => el.remove());
+    alternates.forEach(({ lang: altLang, href }) => {
+      const link = document.createElement("link");
+      link.rel = "alternate";
+      link.setAttribute("hreflang", altLang);
+      link.href = href;
+      document.head.appendChild(link);
+    });
+  }, [alternates]);
+
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <Header lang={lang} />
       <main className="flex-1">{children}</main>
-      <Footer />
-      <BrandingStrip />
+      <Footer lang={lang} />
+      <BrandingStrip lang={lang} />
     </div>
   );
 }

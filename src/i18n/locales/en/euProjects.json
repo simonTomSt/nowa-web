@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "EU Projects",
+    "description": "Projects co-financed from European Union funds under the European Regional Development Fund."
+  },
+  "intro": {
+    "heading": "EU Funds – Completed Projects",
+    "description": "We carry out projects co-financed from European Union funds, supporting innovation and competitiveness of Polish enterprises."
+  },
+  "overview": {
+    "imageAlt": "European Funds – Regional Programme, Republic of Poland, Łódź Voivodeship, European Union – European Regional Development Fund",
+    "projectTitle": "\"Implementation of own R&D results concerning the development of small-format masonry elements and innovative insulating wall materials\"",
+    "projectDetails": "under competition number RPLD.02.03.01.-IP.02-10-080/22 announced under the regional operational programme of the Łódź voivodeship for 2014–2020",
+    "priorityAxis": "PRIORITY AXIS II: INNOVATIVE AND COMPETITIVE ECONOMY MEASURE II.3: INCREASING SME COMPETITIVENESS SUB-MEASURE II.3.1: INNOVATION IN SMEs"
+  },
+  "details": {
+    "heading": "Project Objective",
+    "p1": "The goal of the project is to increase the company's competitiveness on the domestic market by offering a solution that no other entity currently offers in Poland. As a result of the project, the Applicant plans to implement proprietary solutions developed in the company's own laboratory.",
+    "p2": "The project result fits current market trends regarding pro-environmental solutions and is a response to market problems, including growing thermal modernisation challenges and the lack of ecological and economical alternatives in the production of wall and insulating materials. The result will be dedicated both to individual customers and to companies, including the entire market of wall and insulating materials (including wholesalers and developers).",
+    "p3": "The project assumes the completion of two tasks: purchase of fixed assets and purchase of software. Project location: Łódź Voivodeship. In addition to product/process innovation, the project assumes the use of information and communication technologies (ICT) and takes into account environmental aspects. The investment is carried out by a micro-enterprise and is located in a rural area."
+  },
+  "financial": {
+    "heading": "Project Financing",
+    "stats": {
+      "totalExpenditure": "Total expenditure",
+      "eligibleExpenditure": "Eligible expenditure",
+      "coFinancing": "Co-financing"
+    }
+  },
+  "timeline": {
+    "heading": "Project Implementation Period",
+    "implementationPeriod": "Implementation period",
+    "dates": "01/04/2023 – 31/12/2023",
+    "moreInfo": "More information",
+    "mapLink": "www.mapadotacji.gov.pl"
+  }
+}

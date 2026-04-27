@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import PageHero from "../../components/PageHero";
 import concreteImg from "../../assets/building-construction-concrete.jpg";
 import AdmixturesIntroSection from "./components/AdmixturesIntroSection";
@@ -6,11 +7,13 @@ import AdmixturesCTASection from "./components/AdmixturesCTASection";
 import { productCategories } from "./data/products";
 
 export default function OfferAdmixturesPage() {
+  const { t } = useTranslation("offer");
+
   return (
     <>
       <PageHero
-        title="Chemical admixtures"
-        description="High-performance admixtures for aerated and ready-mix concrete — developed and produced by our team for the construction industry."
+        title={t("hero.title")}
+        description={t("hero.description")}
         backgroundImage={concreteImg}
         overlayIntensity="dark"
       />

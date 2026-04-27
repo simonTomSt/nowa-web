@@ -1,7 +1,10 @@
 import { Phone, Mail, Globe } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import nowaLogoWhite from "../../assets/nowa_logo_white.svg";
 import Container from "./Container";
 import { CONTACT } from "../../data/contact";
+import { type Lang } from "../../i18n/routes";
+import { useLocale } from "../../hooks/useLocale";
 
 function FacebookIcon() {
   return (
@@ -21,24 +24,30 @@ function LinkedInIcon() {
   );
 }
 
-const footerNavLinks = [
-  { label: "About admixtures", href: "/about-admixtures" },
-  { label: "Offer", href: "/offer" },
-  { label: "About us", href: "/about-us" },
-  { label: "Contact", href: "/contact" },
-  { label: "Projekty UE", href: "/eu-projects" },
-  { label: "Privacy policy", href: "/privacy-policy" },
-];
+interface FooterProps {
+  lang: Lang;
+}
 
-export default function Footer() {
+export default function Footer({ lang }: FooterProps) {
+  const { t } = useTranslation("common");
+  const { getRoute, switchLang } = useLocale();
   const year = new Date().getFullYear();
+
+  const footerNavLinks = [
+    { labelKey: "footer.links.aboutAdmixtures", href: getRoute("aboutAdmixtures") },
+    { labelKey: "footer.links.offer", href: getRoute("offerLabTests") },
+    { labelKey: "footer.links.aboutUs", href: getRoute("aboutUs") },
+    { labelKey: "footer.links.contact", href: getRoute("contact") },
+    { labelKey: "footer.links.euProjects", href: getRoute("euProjects") },
+    { labelKey: "footer.links.privacyPolicy", href: "#" },
+  ];
 
   return (
     <footer className="bg-secondary text-white border-t-4 border-accent">
       <Container className="pt-14 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 
-          {/* Col 1: Logo + contact + copyright */}
+          {/* Col 1: Logo + contact + language switcher + copyright */}
           <div className="flex flex-col gap-6">
             <img src={nowaLogoWhite} alt="Nowa" className="h-14 w-auto self-start" />
 
@@ -65,29 +74,39 @@ export default function Footer() {
                 <span className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center shrink-0">
                   <Globe size={15} />
                 </span>
-                Polish
+                <div className="relative">
+                  <select
+                    value={lang}
+                    onChange={(e) => switchLang(e.target.value as Lang)}
+                    className="appearance-none bg-white/10 hover:bg-white/15 text-white text-sm font-medium rounded-md pl-3 pr-7 py-1.5 cursor-pointer border border-white/10 hover:border-white/20 transition-colors outline-none focus:ring-2 focus:ring-accent/50"
+                  >
+                    <option value="pl" className="bg-secondary text-white">{t("footer.languages.pl")}</option>
+                    <option value="en" className="bg-secondary text-white">{t("footer.languages.en")}</option>
+                  </select>
+                  <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-white/50 text-xs">▾</span>
+                </div>
               </div>
             </div>
 
             <p className="text-sm text-white/40 mt-auto pt-4">
-              © {year} Nowa. All rights reserved.
+              {t("footer.copyright", { year })}
             </p>
           </div>
 
           {/* Col 2: Learn more navigation */}
           <div className="flex flex-col gap-6">
             <div>
-              <h3 className="text-lg font-bold text-white">Learn more</h3>
+              <h3 className="text-lg font-bold text-white">{t("footer.learnMore")}</h3>
               <div className="mt-2 w-8 h-0.5 bg-accent rounded-full" />
             </div>
             <ul className="flex flex-col gap-1">
               {footerNavLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.labelKey}>
                   <a
                     href={link.href}
                     className="flex items-center gap-2 text-base text-white/70 hover:text-white py-1.5 border-l-2 border-transparent hover:border-accent pl-3 transition-all"
                   >
-                    {link.label}
+                    {t(link.labelKey)}
                   </a>
                 </li>
               ))}
@@ -97,18 +116,18 @@ export default function Footer() {
           {/* Col 3: Follow Us */}
           <div className="flex flex-col gap-6">
             <div>
-              <h3 className="text-lg font-bold text-white">Follow Us</h3>
+              <h3 className="text-lg font-bold text-white">{t("footer.followUs")}</h3>
               <div className="mt-2 w-8 h-0.5 bg-accent rounded-full" />
             </div>
             <p className="text-base text-white/70 leading-relaxed">
-              Visit our social media profiles to stay up to date with our news and interesting content!
+              {t("footer.followUsText")}
             </p>
             <div className="flex items-center gap-3">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook"
+                aria-label={t("footer.social.facebook")}
                 className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white hover:scale-110 hover:shadow-lg hover:shadow-accent/30 transition-all"
               >
                 <FacebookIcon />
@@ -117,7 +136,7 @@ export default function Footer() {
                 href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                aria-label={t("footer.social.linkedin")}
                 className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white hover:scale-110 hover:shadow-lg hover:shadow-accent/30 transition-all"
               >
                 <LinkedInIcon />
@@ -127,7 +146,6 @@ export default function Footer() {
 
         </div>
       </Container>
-
     </footer>
   );
 }

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import PageHero from "../../components/PageHero";
 import constructionWorkerImg from "../../assets/construction-worker.jpg";
 import AboutIntroSection from "./components/AboutIntroSection";
@@ -6,11 +7,13 @@ import AboutValuesSection from "./components/AboutValuesSection";
 import AboutFAQSection from "./components/AboutFAQSection";
 
 export default function AboutUsPage() {
+  const { t } = useTranslation("about");
+
   return (
     <>
       <PageHero
-        title="About us"
-        description="A family-rooted company built on innovation, precision, and more than 10 years of expertise in the concrete industry."
+        title={t("hero.title")}
+        description={t("hero.description")}
         backgroundImage={constructionWorkerImg}
         overlayIntensity="medium"
       />

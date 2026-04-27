@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Container from "../../../components/layout/Container";
 import bgBlobGradient from "../../../assets/bg-blob-gradient.svg";
 
 export default function EUProjectsIntroSection() {
+  const { t } = useTranslation("euProjects");
+
   return (
     <section className="relative bg-white py-16 lg:py-20 overflow-hidden">
       <img
@@ -12,11 +15,10 @@ export default function EUProjectsIntroSection() {
       <Container className="relative z-10">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight tracking-tight">
-            Fundusze UE – Zrealizowane projekty
+            {t("intro.heading")}
           </h2>
           <p className="mt-5 text-base sm:text-lg text-gray-500 leading-relaxed">
-            Realizujemy projekty współfinansowane ze środków Unii Europejskiej,
-            wspierające innowacyjność i konkurencyjność polskich przedsiębiorstw.
+            {t("intro.description")}
           </p>
         </div>
       </Container>

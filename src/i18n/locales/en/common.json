@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "aboutAdmixtures": "About admixtures",
+    "aboutUs": "About us",
+    "contact": "Contact",
+    "offer": "Offer",
+    "offerLabTests": "Laboratory tests",
+    "offerLabTestsDesc": "Material testing & certification",
+    "offerAdmixtures": "Concrete admixtures",
+    "offerAdmixturesDesc": "Aerated & ready-mix solutions",
+    "toggleMenu": "Toggle menu"
+  },
+  "footer": {
+    "learnMore": "Learn more",
+    "followUs": "Follow Us",
+    "followUsText": "Visit our social media profiles to stay up to date with our news and interesting content!",
+    "copyright": "© {{year}} Nowa. All rights reserved.",
+    "language": "Language",
+    "languages": {
+      "pl": "🇵🇱 Polish",
+      "en": "🇬🇧 English"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+    "links": {
+      "aboutAdmixtures": "About admixtures",
+      "offer": "Offer",
+      "aboutUs": "About us",
+      "contact": "Contact",
+      "euProjects": "EU Projects",
+      "privacyPolicy": "Privacy policy"
+    }
+  },
+  "euProjectsAriaLabel": "EU Projects",
+  "branding": {
+    "euLogosAlt": "Logos of the European Funds programme, the Republic of Poland, the Lodzkie Voivodeship, and the European Union"
+  }
+}

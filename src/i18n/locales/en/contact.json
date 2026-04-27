@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "Contact",
+    "description": "Contact us and get support, answers to your questions and solutions to your problems. We are here for you!"
+  },
+  "info": {
+    "heading": "Contact Details",
+    "description": "Reach out to us directly — we're ready to answer your questions and support your projects.",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "nip": "NIP"
+  },
+  "form": {
+    "heading": "Leave Us A Message",
+    "description": "Fill in the form below and we'll get back to you as soon as possible.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "your@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message...",
+    "gdprLabel": "GDPR Consent",
+    "gdprText": "I agree to the storage of the information submitted by me on this website for the purpose of responding to my inquiry.",
+    "send": "Send"
+  },
+  "cta": {
+    "heading": "Have a question or need support?",
+    "description": "Our team is ready to help — call us directly or send a message using the form above.",
+    "callNow": "Call now"
+  }
+}

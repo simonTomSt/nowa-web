@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "headline": "Innovative Chemical Admixtures for Modern Concrete",
+    "subtext": "We develop and supply high-performance admixtures for aerated and ready-mix concrete, and provide professional testing services for building materials.",
+    "ctaLabel": "Learn more"
+  },
+  "services": {
+    "heading": "What do we do?",
+    "description": "From chemical admixtures and raw materials to laboratory testing and production consulting — we cover every stage of modern concrete manufacturing.",
+    "checkOffer": "Check Out Offer",
+    "items": {
+      "labTests": {
+        "title": "Laboratory Tests",
+        "description": "Comprehensive material testing and certification for building materials, ensuring compliance with industry standards."
+      },
+      "audit": {
+        "title": "Audit",
+        "description": "Professional auditing of concrete production processes, quality control systems, and plant operations."
+      },
+      "admixtures": {
+        "title": "Admixtures",
+        "description": "High-performance chemical admixtures for aerated and ready-mix concrete tailored to your production needs."
+      },
+      "productionTechnology": {
+        "title": "Production Technology",
+        "description": "Technical consulting and process optimization for modern concrete manufacturing and aerated concrete plants."
+      },
+      "machinery": {
+        "title": "Machinery",
+        "description": "Supply and servicing of specialized equipment for concrete production, dosing systems, and lab instrumentation."
+      },
+      "rawMaterials": {
+        "title": "Raw Materials",
+        "description": "Sourcing and quality assessment of raw materials used in concrete production, including binders and aggregates."
+      }
+    }
+  },
+  "whoWeAre": {
+    "heading": "Who We Are?",
+    "text": "We are an experienced team of specialists with over 10 years of experience in the concrete chemical admixtures and construction laboratories industry. We represent youth, creativity, and openness to innovation. Our achievements in creating innovative products for concrete, including chemical admixtures, and conducting research in our construction laboratory, constitute the foundation of our activity. We stand out in the market thanks to our passion, full commitment, and constant pursuit of improving our products and services.",
+    "cta": "Get to know us better",
+    "imageAlt": "Our team at work"
+  },
+  "valueProposition": {
+    "admixtures": {
+      "heading": "Why are our chemical admixtures for concrete the best choice?",
+      "description": "If you are looking for effective and economical chemical admixtures for concrete, our company is the answer to your needs. We specialize in offering a new generation of lignosulfonate-based admixtures that guarantee higher quality concrete at competitive prices. Whether you need admixtures in liquid or solid form, our experienced team of specialists will tailor them to your expectations.",
+      "feature1": "Greater Endurance",
+      "feature2": "Water Reduction",
+      "cta": "More properties",
+      "imageAlt": "Chemistry lab with glassware and admixture samples",
+      "card": {
+        "title": "Individual Approach",
+        "description": "For each client, admixtures are selected and composed to precisely match their specific requirements."
+      }
+    },
+    "labTests": {
+      "heading": "Laboratory tests of building materials",
+      "description": "We collect samples of building materials regardless of location and transfer them to our advanced construction laboratory. As an expert in the field of materials testing and analysis, we offer aggregate manufacturers support not only in terms of Factory Production Control but also in preparing professional commercial documentation.",
+      "feature1": "Maintaining Standards And Norms",
+      "feature2": "Product Quality Control",
+      "cta": "Full offer of tests",
+      "imageAlt": "Scientist measuring building material samples in a laboratory",
+      "card": {
+        "title": "Professional measuring equipment",
+        "description": "We have modern measuring equipment that meets all technical standards and norms."
+      }
+    }
+  }
+}
