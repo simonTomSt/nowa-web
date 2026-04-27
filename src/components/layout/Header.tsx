@@ -88,13 +88,15 @@ export default function Header() {
                   ))}
 
                   <Dropdown>
-                    <button className={offerBtnClass}>
-                      Offer
-                      <ChevronDown
-                        size={14}
-                        className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
-                      />
-                    </button>
+                    <Dropdown.Trigger>
+                      <button className={offerBtnClass}>
+                        Offer
+                        <ChevronDown
+                          size={14}
+                          className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
+                        />
+                      </button>
+                    </Dropdown.Trigger>
                     <Dropdown.Popover className="min-w-64">
                       <Dropdown.Menu className="p-1">
                         {offerLinks.map((link) => (
@@ -233,13 +235,15 @@ export default function Header() {
                   </a>
                 ))}
                 <Dropdown>
-                  <button className="flex items-center gap-1 px-3.5 py-1.5 text-sm font-medium text-gray-600 hover:text-accent rounded-lg hover:bg-gray-100 transition-all duration-150 group/offer">
-                    Offer
-                    <ChevronDown
-                      size={12}
-                      className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
-                    />
-                  </button>
+                  <Dropdown.Trigger>
+                    <button className="flex items-center gap-1 px-3.5 py-1.5 text-sm font-medium text-gray-600 hover:text-accent rounded-lg hover:bg-gray-100 transition-all duration-150 group/offer">
+                      Offer
+                      <ChevronDown
+                        size={12}
+                        className="mt-px transition-transform duration-200 group-hover/offer:rotate-180"
+                      />
+                    </button>
+                  </Dropdown.Trigger>
                   <Dropdown.Popover className="min-w-64">
                     <Dropdown.Menu className="p-1">
                       {offerLinks.map((link) => (
