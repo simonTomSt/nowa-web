@@ -85,8 +85,16 @@ export default function Header({ lang }: HeaderProps) {
   };
 
   const offerBtnClass = scrolled
-    ? `flex items-center gap-1.5 px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 group/offer ${isOfferActive ? "text-accent bg-white shadow-sm" : "text-gray-600 hover:text-accent hover:bg-white"}`
-    : `flex items-center gap-1.5 px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 group/offer ${isOfferActive ? "text-white bg-white/20 shadow-sm" : "text-white/90 hover:text-white hover:bg-white/15"}`;
+    ? `flex items-center gap-1.5 px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 group/offer ${
+        isOfferActive
+          ? "text-accent bg-white shadow-sm"
+          : "text-gray-600 hover:text-accent hover:bg-white"
+      }`
+    : `flex items-center gap-1.5 px-4 py-2 text-base font-medium rounded-xl transition-all duration-150 group/offer ${
+        isOfferActive
+          ? "text-white bg-white/20 shadow-sm"
+          : "text-white/90 hover:text-white hover:bg-white/15"
+      }`;
 
   return (
     <>
@@ -118,12 +126,17 @@ export default function Header({ lang }: HeaderProps) {
                   }`}
                 >
                   {navLinks.map((link) => (
-                    <a key={link.href} href={link.href} className={getLinkClass(link.href)}>
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      className={getLinkClass(link.href)}
+                    >
                       {link.label}
                     </a>
                   ))}
 
                   <Dropdown>
+                    {/* @ts-expect-error none is not a valid variant */}
                     <Button variant="none" className={offerBtnClass}>
                       {t("nav.offer")}
                       <ChevronDown
@@ -264,7 +277,6 @@ export default function Header({ lang }: HeaderProps) {
       {/* ── Compact sticky header: slides in after scrolling past hero ── */}
       <header
         aria-hidden={!compact}
-        // @ts-expect-error inert is valid HTML but not yet in React's typings
         inert={!compact ? true : undefined}
         className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-out ${
           compact ? "translate-y-0" : "-translate-y-full"
@@ -300,7 +312,8 @@ export default function Header({ lang }: HeaderProps) {
                 })}
                 <Dropdown>
                   <Button
-                    variant="plain"
+                    // @ts-expect-error none is not a valid variant
+                    variant="noen"
                     className={`flex items-center gap-1 px-3.5 py-1.5 text-sm font-medium rounded-lg transition-all duration-150 group/offer ${
                       isOfferActive
                         ? "text-accent bg-gray-100 shadow-sm"
