@@ -10,5 +10,5 @@ export const CONTACT = {
     country: "Poland",
   },
   mapEmbedUrl:
-    "https://maps.google.com/maps?q=Po%C5%82udniowa+78%2C+98-324+Wierzchlas%2C+Poland&output=embed",
+    "https://maps.google.com/maps?q=Po%C5%82udniowa+78%2C+98-324+Wierzchlas%2C+Poland&output=embed&z=10",
 } as const;
