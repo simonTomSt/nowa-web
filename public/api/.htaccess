@@ -1,0 +1,11 @@
+# Only allow POST requests to contact.php
+<Files "contact.php">
+    Order allow,deny
+    Allow from all
+</Files>
+
+# Deny access to everything else in this directory
+<FilesMatch "^(?!contact\.php$)">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

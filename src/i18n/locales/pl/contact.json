@@ -14,13 +14,23 @@
   "form": {
     "heading": "Napisz do nas",
     "description": "Wypełnij poniższy formularz, a odezwiemy się tak szybko, jak to możliwe.",
+    "nameLabel": "Imię i nazwisko",
+    "namePlaceholder": "Jan Kowalski",
     "emailLabel": "Adres e-mail",
     "emailPlaceholder": "twoj@email.pl",
     "messageLabel": "Wiadomość",
     "messagePlaceholder": "Napisz swoją wiadomość...",
     "gdprLabel": "Zgoda RODO",
     "gdprText": "Wyrażam zgodę na przechowywanie informacji przesłanych przeze mnie na tej stronie w celu udzielenia odpowiedzi na moje zapytanie.",
-    "send": "Wyślij"
+    "gdprError": "Musisz zaakceptować zgodę RODO, aby wysłać wiadomość.",
+    "send": "Wyślij",
+    "sending": "Wysyłanie...",
+    "successMessage": "Twoja wiadomość została wysłana. Odezwiemy się wkrótce.",
+    "errorMessage": "Coś poszło nie tak. Spróbuj ponownie lub skontaktuj się z nami bezpośrednio.",
+    "errorNameRequired": "Proszę podać imię i nazwisko.",
+    "errorEmailInvalid": "Proszę podać poprawny adres e-mail.",
+    "errorMessageTooShort": "Wiadomość jest za krótka. Napisz przynajmniej kilka słów.",
+    "errorRateLimited": "Zbyt wiele żądań. Poczekaj kilka minut przed ponowną próbą."
   },
   "cta": {
     "heading": "Masz pytanie lub potrzebujesz wsparcia?",

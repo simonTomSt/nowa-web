@@ -14,13 +14,23 @@
   "form": {
     "heading": "Leave Us A Message",
     "description": "Fill in the form below and we'll get back to you as soon as possible.",
+    "nameLabel": "Full name",
+    "namePlaceholder": "John Doe",
     "emailLabel": "Email address",
     "emailPlaceholder": "your@email.com",
     "messageLabel": "Message",
     "messagePlaceholder": "Write your message...",
     "gdprLabel": "GDPR Consent",
     "gdprText": "I agree to the storage of the information submitted by me on this website for the purpose of responding to my inquiry.",
-    "send": "Send"
+    "gdprError": "You must accept the GDPR consent to send the message.",
+    "send": "Send",
+    "sending": "Sending...",
+    "successMessage": "Your message has been sent. We'll get back to you shortly.",
+    "errorMessage": "Something went wrong. Please try again or contact us directly.",
+    "errorNameRequired": "Please enter your name.",
+    "errorEmailInvalid": "Please enter a valid email address.",
+    "errorMessageTooShort": "Your message is too short. Please write at least a few words.",
+    "errorRateLimited": "Too many requests. Please wait a few minutes before trying again."
   },
   "cta": {
     "heading": "Have a question or need support?",
